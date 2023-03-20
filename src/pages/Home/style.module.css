@@ -1,0 +1,15 @@
+.main {
+    @apply
+    max-w-7xl
+    mx-auto
+}
+
+.header {
+    @apply
+    h-24
+}
+
+.main {
+    @apply
+    h-main
+}

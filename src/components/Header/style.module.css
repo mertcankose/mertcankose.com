@@ -1,0 +1,22 @@
+.header {
+    @apply
+    flex
+}
+
+.menuButton {
+    @apply
+    flex items-center
+    relative
+}
+
+.nav {
+    @apply
+    flex flex-col
+    w-48 z-10
+    absolute top-8
+}
+
+.navItem {
+    @apply
+    px-2 py-4
+}
