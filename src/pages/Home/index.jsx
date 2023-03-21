@@ -6,9 +6,11 @@ const Home = () => {
     <main className={styles.main}>
       <Header className={styles.header} />
       <Main className={styles.main} />
+      {/* 
       <Works />
       <Skills />
-      <Contact />
+      <Contact /> 
+      */}
     </main>
   );
 };

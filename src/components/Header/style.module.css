@@ -1,6 +1,15 @@
 .header {
     @apply
     flex
+    justify-between
+    items-center
+    px-8 xl:px-0
+}
+
+.heading {
+    @apply
+    text-2xl
+    font-semibold
 }
 
 .menuButton {
@@ -11,12 +20,17 @@
 
 .nav {
     @apply
-    flex flex-col
+    flex-col hidden
     w-48 z-10
-    absolute top-8
+    absolute top-24 right-4
+}
+.openNav {
+    @apply
+    flex
 }
 
 .navItem {
     @apply
     px-2 py-4
+    text-center
 }
