@@ -2,41 +2,80 @@
     @apply
     flex
     justify-between
-    items-center
-    px-8 xl:px-0
+    items-center md:items-end
+    px-8 xl:px-0 relative
 }
 
 .heading {
     @apply
+    flex-1
     text-2xl
     font-semibold
 }
 
 .bar {
     @apply
+    flex-1
     hidden md:block
     w-96
 }
 
+.menuButtonWrapper {
+    @apply
+    flex-1
+    flex justify-end items-center
+    relative
+}
+
 .menuButton {
     @apply
-    flex items-center
+    bg-gray-100
+    hover:bg-gray-200
+    px-3 py-2
+    rounded-xl
+    border border-gray-50
+    hover:border-gray-100 
+    active:border-gray-300
+    hover:scale-105
+    transition-all
     relative
+}
+
+.closeContent {
+    @apply
+    flex items-center gap-1
+}
+
+.menuContent {
+    @apply
+    flex items-center gap-1
 }
 
 .nav {
     @apply
+    absolute top-28 right-0
     flex-col hidden
     w-48 z-10
-    absolute top-24 right-4
+    bg-gray-50
+    shadow-lg
+    drop-shadow-md
+    transition-all
+    rounded-lg
+    border-pink-600
+    py-2
 }
 .openNav {
     @apply
     flex
+    transition-all
 }
-
 .navItem {
     @apply
-    px-2 py-4
+    px-2 py-3
     text-center
+    cursor-pointer
+    hover:bg-gray-100
+    rounded-lg
+    mx-2
+ 
 }

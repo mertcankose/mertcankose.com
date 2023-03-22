@@ -2,6 +2,8 @@ import { useState } from "react";
 import styles from "./style.module.css";
 import Bar from "../Bar";
 import { Link } from "react-router-dom";
+import { ReactComponent as ArrowDown } from "../../assets/icons/chevron-down.svg";
+import { ReactComponent as Close } from "../../assets/icons/close.svg";
 
 const Header = ({ className }) => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -12,15 +14,30 @@ const Header = ({ className }) => {
         mertcankose.
       </Link>
       <Bar className={styles.bar} />
-      <p></p>
-      {/* <button
-        className={styles.menuButton}
-        onClick={() => setOpenMenu(!openMenu)}
-      >
-        {openMenu ? "Close" : "Menu"}
-      </button> */}
+      <div className={[styles.menuButtonWrapper, "relative"].join(" ")}>
+        <button
+          className={[styles.menuButton, "relative"].join(" ")}
+          onClick={() => setOpenMenu(!openMenu)}
+        >
+          {openMenu ? (
+            <div className={styles.closeContent}>
+              <span className="text-base">Close</span>
+              <Close width="22" height="22" />
+            </div>
+          ) : (
+            <div className={styles.menuContent}>
+              <span className="text-base">Menu</span>
+              <ArrowDown width="22" height="22" />
+            </div>
+          )}
+        </button>
+      </div>
 
-      {/* <nav className={[styles.nav, openMenu && styles.openNav].join(" ")}>
+      <nav
+        className={[styles.nav, "absolute", openMenu && styles.openNav].join(
+          " "
+        )}
+      >
         <span className={[styles.navItem, styles.about].join(" ")}>About</span>
         <span className={[styles.navItem, styles.work].join(" ")}>Work</span>
         <span className={[styles.navItem, styles.skills].join(" ")}>
@@ -29,7 +46,7 @@ const Header = ({ className }) => {
         <span className={[styles.navItem, styles.contact].join(" ")}>
           Contact
         </span>
-      </nav> */}
+      </nav>
     </header>
   );
 };
