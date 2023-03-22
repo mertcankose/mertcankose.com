@@ -12,6 +12,12 @@
     font-semibold
 }
 
+.bar {
+    @apply
+    hidden md:block
+    w-96
+}
+
 .menuButton {
     @apply
     flex items-center

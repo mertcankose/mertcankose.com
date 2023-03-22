@@ -1,0 +1,6 @@
+.bar {
+    @apply
+    bg-gray-100
+    rounded-2xl
+    px-0.5
+}

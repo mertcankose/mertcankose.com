@@ -1,11 +1,11 @@
 import styles from "./style.module.css";
 
-const Contact = () => {
+const LetsTalk = () => {
   return (
     <section>
-      <h1>Contact</h1>
+      <h1>LetsTalk</h1>
     </section>
   );
 };
 
-export default Contact;
+export default LetsTalk;

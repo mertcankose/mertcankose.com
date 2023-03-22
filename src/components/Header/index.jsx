@@ -11,15 +11,16 @@ const Header = ({ className }) => {
       <Link to="/" className={styles.heading}>
         mertcankose.
       </Link>
-      {/* <Bar /> */}
+      <Bar className={styles.bar} />
+      <p></p>
       {/* <button
         className={styles.menuButton}
         onClick={() => setOpenMenu(!openMenu)}
       >
         {openMenu ? "Close" : "Menu"}
-      </button>
+      </button> */}
 
-      <nav className={[styles.nav, openMenu && styles.openNav].join(" ")}>
+      {/* <nav className={[styles.nav, openMenu && styles.openNav].join(" ")}>
         <span className={[styles.navItem, styles.about].join(" ")}>About</span>
         <span className={[styles.navItem, styles.work].join(" ")}>Work</span>
         <span className={[styles.navItem, styles.skills].join(" ")}>

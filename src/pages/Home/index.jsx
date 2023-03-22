@@ -1,17 +1,24 @@
 import styles from "./style.module.css";
-import { Contact, Header, Main, Skills, Works } from "../../components";
+import {
+  LetsTalk,
+  Header,
+  Main,
+  Skills,
+  Works,
+  Footer,
+} from "../../components";
 
 const Home = () => {
   return (
-    <main className={styles.main}>
-      <Header className={styles.header} />
-      <Main className={styles.main} />
+    <div>
+      <Main className={styles.mainSection} />
       {/* 
       <Works />
       <Skills />
-      <Contact /> 
+      <LetsTalk /> 
+      <Footer />
       */}
-    </main>
+    </div>
   );
 };
 
