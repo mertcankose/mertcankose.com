@@ -53,21 +53,23 @@
 
 .nav {
     @apply
-    absolute top-28 right-0
     flex-col hidden
     w-48 z-10
     bg-gray-50
     shadow-lg
-    drop-shadow-md
-    transition-all
+    shadow-blue-200
     rounded-lg
-    border-pink-600
     py-2
+    fixed
+    top-20 md:top-28
+    right-8 xl:right-0
+    transition-all
 }
+
 .openNav {
     @apply
     flex
-    transition-all
+    z-10
 }
 .navItem {
     @apply
@@ -77,5 +79,4 @@
     hover:bg-gray-100
     rounded-lg
     mx-2
- 
 }

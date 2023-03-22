@@ -38,16 +38,19 @@ const Header = ({ className }) => {
           " "
         )}
       >
-        <span className={[styles.navItem, styles.about].join(" ")}>About</span>
-        <span className={[styles.navItem, styles.work].join(" ")}>Work</span>
-        <span className={[styles.navItem, styles.skills].join(" ")}>
+        <Link to="/about" className={[styles.navItem, styles.about].join(" ")}>
+          About
+        </Link>
+        <Link className={[styles.navItem, styles.work].join(" ")}>Work</Link>
+        <Link className={[styles.navItem, styles.skills].join(" ")}>
           Skills
-        </span>
-        <span className={[styles.navItem, styles.contact].join(" ")}>
+        </Link>
+        <Link className={[styles.navItem, styles.contact].join(" ")}>
           Contact
-        </span>
+        </Link>
       </nav>
     </header>
   );
 };
+
 export default Header;

@@ -1,3 +1,4 @@
+import ContactButton from "../ContactButton";
 import SocialBar from "../SocialBar";
 import styles from "./style.module.css";
 
@@ -13,9 +14,7 @@ const Main = ({ className }) => {
         enjoys this process.
       </p>
       <SocialBar />
-      <a href="mailto:me@mertcankose.com" className={styles.contactOuter}>
-        <div className={styles.contactInner}>Contact Me</div>
-      </a>
+      <ContactButton />
     </section>
   );
 };

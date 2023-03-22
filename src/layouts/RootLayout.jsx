@@ -3,10 +3,10 @@ import { Footer, Header } from "../components";
 
 const RootLayout = () => {
   return (
-    <main className="max-w-7xl mx-auto">
+    <main className="max-w-7xl mx-auto mb-8">
       <Header className="h-24" />
       <Outlet />
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 };
