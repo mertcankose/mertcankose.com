@@ -1,0 +1,25 @@
+.worksContainer {
+    @apply
+    flex flex-col
+    items-center
+    px-4
+}
+
+.heading {
+    @apply
+    text-3xl
+    font-bold
+}
+
+.works {
+    @apply
+    mt-10 
+    grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
+    gap-12
+}
+
+.workImage {
+    @apply
+    w-1/2
+    rounded-none
+}

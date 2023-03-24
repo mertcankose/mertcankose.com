@@ -3,9 +3,9 @@ import styles from "./style.module.css";
 import { menu } from "../../constants/menu";
 import SocialBar from "../SocialBar";
 
-const Footer = () => {
+const Footer = ({ className }) => {
   return (
-    <footer className={styles.footer}>
+    <footer className={[styles.footer, className].join(" ")}>
       <nav className={styles.nav}>
         {menu.map((menu) => (
           <NavLink

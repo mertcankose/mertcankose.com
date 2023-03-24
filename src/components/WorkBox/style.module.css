@@ -1,0 +1,24 @@
+.workBox {
+    @apply
+    flex flex-col
+    hover:scale-105
+    transition-all duration-300
+    bg-gray-50 rounded-2xl
+    px-6 py-8
+}
+.image {
+    @apply
+    w-16 h-16
+    rounded-full
+}
+
+.title {
+    @apply
+    text-xl font-bold mt-2
+}
+
+.description {
+    @apply
+    text-gray-500
+    mt-2 mb-3
+}

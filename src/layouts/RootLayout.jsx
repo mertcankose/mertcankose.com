@@ -6,7 +6,7 @@ const RootLayout = () => {
     <main className="max-w-7xl mx-auto mb-8">
       <Header className="h-24" />
       <Outlet />
-      <Footer />
+      <Footer className="mt-16" />
     </main>
   );
 };

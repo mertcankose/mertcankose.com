@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <div>
       <Main className={styles.mainSection} />
-      {/* 
       <Works />
+      {/* 
       <Skills />
       <LetsTalk /> 
       <Footer />
