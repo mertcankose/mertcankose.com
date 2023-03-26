@@ -7,7 +7,6 @@ const WorkBox = ({ item, extra, className, imageClassName, ...props }) => {
     <Link
       to={item?.generalLink}
       href={item.generalLink}
-      target="_blank"
       className={[styles.workBox, className].join(" ")}
       {...props}
     >

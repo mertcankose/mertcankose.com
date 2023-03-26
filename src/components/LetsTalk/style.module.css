@@ -1,0 +1,22 @@
+.container {
+    @apply
+    flex flex-col items-center
+    px-4 2xl:px-0
+    mt-8
+}
+
+.title {
+    @apply
+    text-5xl
+    font-medium
+    text-center
+    text-gray-800
+    mb-4
+}
+
+.description {
+    @apply
+    text-center
+    text-gray-500
+    text-xl
+}

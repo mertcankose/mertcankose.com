@@ -13,11 +13,8 @@ const Home = () => {
     <div>
       <Main className={styles.mainSection} />
       <Works />
-      {/* 
       <Skills />
-      <LetsTalk /> 
-      <Footer />
-      */}
+      <LetsTalk />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import AnimatedText from "../AnimatedText";
-import ContactButton from "../ContactButton";
+import CustomButton from "../CustomButton";
 import SocialBar from "../SocialBar";
 import styles from "./style.module.css";
 
@@ -17,7 +17,7 @@ const Main = ({ className }) => {
         enjoys this process.
       </p>
       <SocialBar />
-      <ContactButton />
+      <CustomButton text="Contact Me" className="mt-10" />
     </section>
   );
 };

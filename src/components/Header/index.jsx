@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./style.module.css";
 import Bar from "../Bar";
 import { Link } from "react-router-dom";
-import { ReactComponent as ArrowDown } from "../../assets/icons/chevron-down.svg";
+import { ReactComponent as ChevronDown } from "../../assets/icons/chevron-down.svg";
 import { ReactComponent as Close } from "../../assets/icons/close.svg";
 
 const Header = ({ className }) => {
@@ -27,7 +27,7 @@ const Header = ({ className }) => {
           ) : (
             <div className={styles.menuContent}>
               <span className="text-base">Menu</span>
-              <ArrowDown width="22" height="22" />
+              <ChevronDown width="22" height="22" />
             </div>
           )}
         </button>

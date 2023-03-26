@@ -1,6 +1,8 @@
 import WorkBox from "../WorkBox";
 import styles from "./style.module.css";
 import { selectedWorks } from "../../constants/work";
+import CustomButton from "../CustomButton";
+import { Link } from "react-router-dom";
 
 const Works = () => {
   const changingImage = (index) => {
@@ -24,7 +26,9 @@ const Works = () => {
           />
         ))}
       </div>
-      {/* <button>See More</button> */}
+      <Link to="/works">
+        <CustomButton text="See More" className="mt-10" />
+      </Link>
     </section>
   );
 };

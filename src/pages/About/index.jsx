@@ -1,4 +1,4 @@
-import ContactButton from "../../components/ContactButton";
+import CustomButton from "../../components/CustomButton";
 import styles from "./style.module.css";
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
         the combination of business and marketing to make customers and users
         satisfied when they're using products and services online.
       </p>
-      <ContactButton />
+      <CustomButton text="Contact Me" className="mt-10" />
     </div>
   );
 };

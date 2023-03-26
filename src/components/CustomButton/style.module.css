@@ -1,0 +1,9 @@
+.contactOuter {
+    @apply
+    hover:scale-105 bg-gradient-to-r p-0.5 from-pink-500 via-red-500 to-yellow-500 shadow transition-all duration-300 shadow-pink-600 flex justify-center items-center rounded-2xl font-bold bg-gray-800 hover:bg-white
+}
+
+.contactInner {
+    @apply
+    bg-gray-900 hover:bg-white transition-all duration-300 text-white hover:text-black px-5 py-3 rounded-2xl
+}
