@@ -223,8 +223,9 @@ export const allWorks = [
     description:
       "Playland is a project that I am involved in as a freelancer. QR Supported payment system (iyzico) for a company that already has entertainment stores in most provinces of Turkey, is a multi-featured mobile application where parents can follow their children in the game.",
     tags: ["React Native"],
-    playStore: "",
-    appStore: "",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
+    appStore: "https://apps.apple.com/tr/app/playland-mobil/id1631854531",
     webLink: "",
     githubLink: "",
     generalLink: "/work/playland",
@@ -238,8 +239,9 @@ export const allWorks = [
     description:
       "I have developed a mobile application of a blockchain-based service with react native for the company I work for. I have used web3 libraries such as Wallet Connect.",
     tags: ["React Native"],
-    playStore: "",
-    appStore: "",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
+    appStore: "https://apps.apple.com/gb/app/open-vote/id1601587507",
     webLink: "",
     githubLink: "",
     generalLink: "/work/open-vote",
@@ -292,7 +294,7 @@ export const allWorks = [
     name: "filminn",
     image: filminnImage,
     title: "Filminn",
-    description: "E-Course is a example dashboard of a e-learning platform.",
+    description: "Filminn is a landing page of a movie platform.",
     tags: ["Vue", "Firebase"],
     playStore: "",
     appStore: "",
@@ -320,7 +322,8 @@ export const allWorks = [
     name: "galaksi-organization",
     image: galaksiOrganizationImage,
     title: "Galaksi Organization",
-    description: "Organization website that presents the organization tools.",
+    description:
+      "An organization website that presents the organization tools.",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
