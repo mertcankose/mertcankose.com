@@ -204,7 +204,8 @@ export const allWorks = [
     name: "finrend",
     image: finrendMobileImage,
     title: "Finrend",
-    description: "",
+    description:
+      "Finrend is a financial application taht followed signals from the stock market and gave recommendations to users.",
     tags: ["React Native"],
     playStore: "https://play.google.com/store/apps/details?id=com.finrend",
     appStore:
@@ -309,7 +310,7 @@ export const allWorks = [
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
-    webLink: "https:/directacademy.net/",
+    webLink: "https://directacademy.net/",
     githubLink: "",
     generalLink: "/work/direct-academy",
     photo1: emptyPhoto,
