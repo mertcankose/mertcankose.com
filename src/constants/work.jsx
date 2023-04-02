@@ -14,6 +14,21 @@ import filminnImage from "../assets/images/filminn/filminn.png";
 import directAcademyImage from "../assets/images/directacademy/directAcademy.png";
 import galaksiOrganizationImage from "../assets/images/galaksiorganizasyon/galaksiOrganization.png";
 
+import emptyPhoto from "../assets/images/empty.png";
+
+import eservisPhoto1 from "../assets/images/eservis/photo1.png";
+import eservisPhoto2 from "../assets/images/eservis/photo2.png";
+import funlordMobilePhoto1 from "../assets/images/funlord/photo1.png";
+import funlordMobilePhoto2 from "../assets/images/funlord/photo2.png";
+import funlordAdminPhoto1 from "../assets/images/funlordweb/photo1.png";
+import funlordAdminPhoto2 from "../assets/images/funlordweb/photo2.png";
+import aybuMobilePhoto1 from "../assets/images/aybumobile/photo1.png";
+import aybuMobilePhoto2 from "../assets/images/aybumobile/photo2.png";
+import qrScanPhoto1 from "../assets/images/qrscan/photo1.png";
+import qrScanPhoto2 from "../assets/images/qrscan/photo2.png";
+import omAppPhoto1 from "../assets/images/omapp/photo1.png";
+import omAppPhoto2 from "../assets/images/omapp/photo2.png";
+
 export const selectedWorks = [
   {
     image: eservisImage,
@@ -104,6 +119,8 @@ export const allWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/e-servis",
+    photo1: eservisPhoto1,
+    photo2: eservisPhoto2,
   },
   {
     name: "funlord-mobile",
@@ -117,6 +134,8 @@ export const allWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/funlord-mobile",
+    photo1: funlordMobilePhoto1,
+    photo2: funlordMobilePhoto2,
   },
   {
     name: "funlord-admin",
@@ -130,6 +149,8 @@ export const allWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/funlord-admin",
+    photo1: funlordAdminPhoto1,
+    photo2: funlordAdminPhoto2,
   },
   {
     name: "aybu-mobile",
@@ -145,6 +166,8 @@ export const allWorks = [
     webLink: "https://aybumobile.com",
     githubLink: "https://github.com/thesammet/aybumobile",
     generalLink: "/work/aybu-mobile",
+    photo1: aybuMobilePhoto1,
+    photo2: aybuMobilePhoto2,
   },
 
   {
@@ -159,6 +182,8 @@ export const allWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/qr-scan",
+    photo1: qrScanPhoto1,
+    photo2: qrScanPhoto2,
   },
   {
     name: "omapp",
@@ -172,6 +197,8 @@ export const allWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/omapp",
+    photo1: omAppPhoto1,
+    photo2: omAppPhoto2,
   },
   {
     name: "finrend",
@@ -185,6 +212,8 @@ export const allWorks = [
     webLink: "http://finrend.com/",
     githubLink: "",
     generalLink: "/work/finrend",
+    photo1: emptyPhoto,
+    photo2: emptyPhoto,
   },
   {
     name: "playland",
@@ -198,6 +227,8 @@ export const allWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/playland",
+    photo1: emptyPhoto,
+    photo2: emptyPhoto,
   },
   {
     name: "open-vote",
@@ -211,6 +242,8 @@ export const allWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/open-vote",
+    photo1: emptyPhoto,
+    photo2: emptyPhoto,
   },
   {
     name: "useco",
@@ -223,6 +256,8 @@ export const allWorks = [
     webLink: "https://useco.net/",
     githubLink: "",
     generalLink: "/work/useco",
+    photo1: emptyPhoto,
+    photo2: emptyPhoto,
   },
   {
     name: "plndverse",
@@ -235,6 +270,8 @@ export const allWorks = [
     webLink: "https://www.plndverse.com/",
     githubLink: "",
     generalLink: "/work/plndverse",
+    photo1: emptyPhoto,
+    photo2: emptyPhoto,
   },
   {
     name: "e-course",
@@ -247,6 +284,8 @@ export const allWorks = [
     webLink: "https://e-course-dashboard.vercel.app/",
     githubLink: "",
     generalLink: "/work/e-course",
+    photo1: emptyPhoto,
+    photo2: emptyPhoto,
   },
   {
     name: "filminn",
@@ -259,6 +298,8 @@ export const allWorks = [
     webLink: "https://filminn.vercel.app/",
     githubLink: "",
     generalLink: "/work/filminn",
+    photo1: emptyPhoto,
+    photo2: emptyPhoto,
   },
   {
     name: "direct-academy",
@@ -271,6 +312,8 @@ export const allWorks = [
     webLink: "https:/directacademy.net/",
     githubLink: "",
     generalLink: "/work/direct-academy",
+    photo1: emptyPhoto,
+    photo2: emptyPhoto,
   },
   {
     name: "galaksi-organization",
@@ -283,5 +326,7 @@ export const allWorks = [
     webLink: "https://galaksiorganizasyon.com/",
     githubLink: "",
     generalLink: "/work/galaksi-organization",
+    photo1: emptyPhoto,
+    photo2: emptyPhoto,
   },
 ];

@@ -15,6 +15,7 @@ const WorkDetail = () => {
 
   useEffect(() => {
     const work = allWorks.find((work) => work.name === name);
+    console.log(work);
     setWork(work);
   }, []);
 
@@ -24,23 +25,39 @@ const WorkDetail = () => {
       <p className={styles.description}>{work?.description}</p>
       <div className="flex items-center gap-3">
         {work?.appStore.length > 0 && (
-          <ForwardBox icon={<Apple />} text="App Store" link={work?.appStore} />
+          <ForwardBox
+            icon={<Apple width="24" height="24" />}
+            text="App Store"
+            link={work?.appStore}
+          />
         )}
         {work?.playStore.length > 0 && (
           <ForwardBox
-            icon={<PlayStore />}
+            icon={<PlayStore width="24" height="24" />}
             text="Play Store"
             link={work?.playStore}
           />
         )}
 
         {work?.githubLink.length > 0 && (
-          <ForwardBox icon={<Github />} text="Github" link={work?.githubLink} />
+          <ForwardBox
+            icon={<Github width="24" height="24" />}
+            text="Github"
+            link={work?.githubLink}
+          />
         )}
 
         {work?.webLink.length > 0 && (
-          <ForwardBox icon={<Web />} text="Web Sitesi" link={work?.webLink} />
+          <ForwardBox
+            icon={<Web width="24" height="24" />}
+            text="Web Sitesi"
+            link={work?.webLink}
+          />
         )}
+      </div>
+      <div className="flex flex-col gap-8 mt-4">
+        <img src={work?.photo1} alt="" width={500} />
+        <img src={work?.photo2} alt="" width={500} />
       </div>
     </div>
   );
