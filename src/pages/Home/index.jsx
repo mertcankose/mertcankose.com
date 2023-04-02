@@ -1,21 +1,16 @@
+import { Fragment } from "react";
 import styles from "./style.module.css";
-import {
-  LetsTalk,
-  Header,
-  Main,
-  Skills,
-  Works,
-  Footer,
-} from "../../components";
+import { LetsTalk, Main, Skills, Works } from "../../components";
+import { selectedWorks } from "../../constants/work";
 
 const Home = () => {
   return (
-    <div>
+    <Fragment>
       <Main className={styles.mainSection} />
-      <Works />
-      <Skills />
+      <Works items={selectedWorks} />
+      <Skills className={styles.skillsSection} />
       <LetsTalk />
-    </div>
+    </Fragment>
   );
 };
 

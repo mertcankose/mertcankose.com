@@ -1,35 +1,18 @@
-import WorkBox from "../WorkBox";
 import styles from "./style.module.css";
-import { selectedWorks } from "../../constants/work";
-import CustomButton from "../CustomButton";
+import { allWorks } from "../../constants/work";
+import WorksGrid from "../WorksGrid";
 import { Link } from "react-router-dom";
+import CustomButton from "../CustomButton";
 
-const Works = () => {
-  const changingImage = (index) => {
-    if (index === 1) {
-      return true;
-    }
-    return false;
-  };
-
+const Works = ({ items = [] }) => {
   return (
-    <section className={styles.worksContainer}>
-      <h3 className={styles.heading}>Selected Work</h3>
-      <div className={styles.works}>
-        {selectedWorks.map((work, index) => (
-          <WorkBox
-            item={work}
-            key={index}
-            className=""
-            imageClassName={changingImage(index) && styles.workImage}
-            extra={<></>}
-          />
-        ))}
-      </div>
-      <Link to="/works">
+    <div className={styles.container}>
+      <h2 className={styles.heading}>Selected Works</h2>
+      <WorksGrid items={items} />
+      <Link to="/work">
         <CustomButton text="See More" className="mt-10" />
       </Link>
-    </section>
+    </div>
   );
 };
 

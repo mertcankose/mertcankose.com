@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 
 const Bar = ({ className }) => {
   return (
-    <Link to="/contact" className={[styles.bar, className].join(" ")}>
+    <a
+      href="mailto:mertcankose142@gmail.com"
+      className={[styles.bar, className].join(" ")}
+    >
       <div class="relative flex overflow-x-hidden">
         <div class="animate-marquee whitespace-nowrap">
           <Available />
@@ -14,7 +17,7 @@ const Bar = ({ className }) => {
           <Available />
         </div>
       </div>
-    </Link>
+    </a>
   );
 };
 

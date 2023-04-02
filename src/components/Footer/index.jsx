@@ -9,6 +9,7 @@ const Footer = ({ className }) => {
       <nav className={styles.nav}>
         {menu.map((menu) => (
           <NavLink
+            key={menu.name}
             className={({ isActive }) =>
               isActive ? styles.navItemActive : styles.navItem
             }

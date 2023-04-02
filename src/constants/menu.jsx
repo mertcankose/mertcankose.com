@@ -7,12 +7,4 @@ export const menu = [
     name: "Work",
     url: "/work",
   },
-  {
-    name: "Skills",
-    url: "/skills",
-  },
-  {
-    name: "Contact",
-    url: "/contact",
-  },
 ];

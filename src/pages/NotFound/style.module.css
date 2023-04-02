@@ -1,0 +1,4 @@
+.notFound {
+    @apply
+    flex justify-center items-center mt-10
+}

@@ -14,7 +14,7 @@
 
 .title {
     @apply
-    text-xl font-bold mt-2
+    text-xl font-bold mt-3
 }
 
 .description {

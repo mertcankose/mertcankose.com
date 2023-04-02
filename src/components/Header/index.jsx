@@ -4,6 +4,7 @@ import Bar from "../Bar";
 import { Link } from "react-router-dom";
 import { ReactComponent as ChevronDown } from "../../assets/icons/chevron-down.svg";
 import { ReactComponent as Close } from "../../assets/icons/close.svg";
+import { menu } from "../../constants/menu";
 
 const Header = ({ className }) => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -38,16 +39,11 @@ const Header = ({ className }) => {
           " "
         )}
       >
-        <Link to="/about" className={[styles.navItem, styles.about].join(" ")}>
-          About
-        </Link>
-        <Link className={[styles.navItem, styles.work].join(" ")}>Work</Link>
-        <Link className={[styles.navItem, styles.skills].join(" ")}>
-          Skills
-        </Link>
-        <Link className={[styles.navItem, styles.contact].join(" ")}>
-          Contact
-        </Link>
+        {menu.map((item, index) => (
+          <Link key={index} to={item.url} className={styles.navItem}>
+            {item.name}
+          </Link>
+        ))}
       </nav>
     </header>
   );

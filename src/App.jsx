@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -9,23 +10,23 @@ import PrivateRoutes from "./utils/private-route";
 import RootLayout from "./layouts/RootLayout";
 import NotFound from "./pages/NotFound";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
 import WorkDetail from "./pages/WorkDetail";
-import Works from "./pages/Works";
+import Work from "./pages/Work";
 import WorksLayout from "./layouts/WorksLayout";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route element={<PrivateRoutes />}>
         <Route index element={<Home />} />
-        <Route path="works" element={<WorksLayout />}>
-          <Route index element={<Works />} />
+        <Route path="work" element={<WorksLayout />}>
+          <Route index element={<Work />} />
           <Route path=":name" element={<WorkDetail />} />
         </Route>
 
         <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
       </Route>
 
       <Route path="*" element={<NotFound />} />
@@ -34,7 +35,12 @@ const router = createBrowserRouter(
 );
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <Fragment>
+      <RouterProvider router={router} />;
+      <ToastContainer position="top-center" autoClose={1000} />
+    </Fragment>
+  );
 };
 
 export default App;

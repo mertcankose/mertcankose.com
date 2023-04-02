@@ -17,7 +17,12 @@ const Main = ({ className }) => {
         enjoys this process.
       </p>
       <SocialBar />
-      <CustomButton text="Contact Me" className="mt-10" />
+
+      <CustomButton
+        href="mailto:mertcankose142@gmail.com"
+        text="Contact Me"
+        className="mt-10"
+      />
     </section>
   );
 };

@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 import CustomButton from "../CustomButton";
 import styles from "./style.module.css";
+import { toast } from "react-toastify";
 
 const LetsTalk = () => {
   return (
@@ -9,9 +9,16 @@ const LetsTalk = () => {
       <p className={styles.description}>
         Something on your mind? Get in touch and let's chat!
       </p>
-      <Link to="/contact">
-        <CustomButton text="Send me an email" className="mt-6" />
-      </Link>
+      <div className="flex items-center gap-3 mt-6">
+        <CustomButton text="Send me an email" />
+
+        <CustomButton
+          onClick={() => {
+            toast.success("Email copied to clipboard!");
+          }}
+          text="Copy Email"
+        />
+      </div>
     </section>
   );
 };

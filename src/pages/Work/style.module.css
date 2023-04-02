@@ -1,0 +1,11 @@
+.container {
+    @apply
+    flex flex-col gap-4
+    mt-20
+}
+
+.heading {
+    @apply
+    text-4xl font-bold
+    text-center
+}
