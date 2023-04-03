@@ -113,7 +113,7 @@ export const allWorks = [
     title: "E-Servis",
     description:
       "A platform where parents can monitor their children on the school bus along the way, and school management and service companies can easily control and manage the bus.",
-    tags: ["React"],
+    tags: ["React", "TailwindCSS"],
     playStore: "",
     appStore: "",
     webLink: "",
@@ -176,7 +176,7 @@ export const allWorks = [
     title: "QR Scan",
     description:
       "It's an application that we coded specifically for one of my customers that works on their phone. The application allows us to extract the texts from the photos and store them in the format desired by the user and as an excel file on his phone.",
-    tags: ["React Native", "Amazon Textract"],
+    tags: ["React Native", "SQLite", "Amazon Textract"],
     playStore: "",
     appStore: "",
     webLink: "",
@@ -238,7 +238,7 @@ export const allWorks = [
     title: "Open Vote",
     description:
       "I have developed a mobile application of a blockchain-based service with react native for the company I work for. I have used web3 libraries such as Wallet Connect.",
-    tags: ["React Native"],
+    tags: ["React Native", "Web3"],
     playStore:
       "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
     appStore: "https://apps.apple.com/gb/app/open-vote/id1601587507",
@@ -295,7 +295,7 @@ export const allWorks = [
     image: filminnImage,
     title: "Filminn",
     description: "Filminn is a landing page of a movie platform.",
-    tags: ["Vue", "Firebase"],
+    tags: ["HTML", "CSS", "Gulp.js"],
     playStore: "",
     appStore: "",
     webLink: "https://filminn.vercel.app/",
