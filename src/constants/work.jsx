@@ -35,7 +35,7 @@ export const selectedWorks = [
     title: "E-Servis",
     description:
       "A platform where parents can monitor their children on the school bus along the way, and school management and service companies can easily control and manage the bus.",
-    tags: ["React"],
+    tags: ["React", "TailwindCSS"],
     playStore: "",
     appStore: "",
     webLink: "",
@@ -85,7 +85,7 @@ export const selectedWorks = [
     title: "QR Scan",
     description:
       "An application that allows a user to extract text from a photo and save it in an excel file on his phone.",
-    tags: ["React Native", "Amazon Textract"],
+    tags: ["React Native", "SQLite", "Amazon Textract"],
     playStore: "",
     appStore: "",
     webLink: "",
