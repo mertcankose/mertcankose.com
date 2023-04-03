@@ -176,7 +176,7 @@ export const allWorks = [
     title: "QR Scan",
     description:
       "It's an application that we coded specifically for one of my customers that works on their phone. The application allows us to extract the texts from the photos and store them in the format desired by the user and as an excel file on his phone.",
-    tags: ["React Native", "SQLite", "Amazon Textract"],
+    tags: ["React Native", "SQLite"],
     playStore: "",
     appStore: "",
     webLink: "",
