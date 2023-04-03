@@ -85,7 +85,7 @@ export const selectedWorks = [
     title: "QR Scan",
     description:
       "An application that allows a user to extract text from a photo and save it in an excel file on his phone.",
-    tags: ["React Native", "SQLite", "Amazon Textract"],
+    tags: ["React Native", "SQLite"],
     playStore: "",
     appStore: "",
     webLink: "",
