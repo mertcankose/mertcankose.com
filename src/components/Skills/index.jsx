@@ -10,8 +10,7 @@ const Skills = ({ className }) => {
         <h2 className={styles.thingsTitle}>Things I do</h2>
         <p className={styles.thingsText}>
           Strategy, management, creative direction, & development are my
-          specialities, and I have had nearly a decade honing in my skills. In
-          all my project, I find that efficient work - flows, excellent
+          specialities. I find that efficient work - flows, excellent
           communication skills and a dose of self-discipline are key - a strong
           work ethic has driven my success in a myriad of specialties.
         </p>
