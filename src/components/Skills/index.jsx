@@ -9,10 +9,11 @@ const Skills = ({ className }) => {
       <div className={styles.textArea}>
         <h2 className={styles.thingsTitle}>Things I do</h2>
         <p className={styles.thingsText}>
-          Strategy, management, creative direction, & development are my
-          specialities. I find that efficient work - flows, excellent
-          communication skills and a dose of self-discipline are key - a strong
-          work ethic has driven my success in a myriad of specialties.
+          I develop custom mobile and web applications tailored to your needs. I
+          specialize in React Native app development, as well as web development
+          using React, and Vue. Also Wordpress. I also create decentralized
+          applications (dApps) using blockchain technology. Let's bring your
+          vision to life!
         </p>
       </div>
       <div className={styles.skillsArea}>

@@ -13,8 +13,9 @@ import About from "./pages/About";
 import WorkDetail from "./pages/WorkDetail";
 import Work from "./pages/Work";
 import WorksLayout from "./layouts/WorksLayout";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { Toaster } from "react-hot-toast";
+import { StoreProvider } from "./context/store";
+import Career from "./pages/Career";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,6 +28,7 @@ const router = createBrowserRouter(
         </Route>
 
         <Route path="about" element={<About />} />
+        <Route path="career" element={<Career />} />
       </Route>
 
       <Route path="*" element={<NotFound />} />
@@ -36,10 +38,10 @@ const router = createBrowserRouter(
 
 const App = () => {
   return (
-    <Fragment>
+    <StoreProvider>
       <RouterProvider router={router} />;
-      <ToastContainer position="top-center" autoClose={1000} />
-    </Fragment>
+      <Toaster />
+    </StoreProvider>
   );
 };
 

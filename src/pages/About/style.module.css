@@ -1,7 +1,7 @@
 .about {
     @apply
-    flex flex-col items-center
-    w-full md:w-2/3 
+    flex flex-col
+    w-full md:w-3/4 
     mx-auto
     px-10 md:px-0
     mt-10 md:mt-20 mb-20
@@ -10,14 +10,32 @@
 .heading {
     @apply
     text-4xl md:text-6xl
-    font-bold
+    font-bold text-left
 }
 
 .description {
     @apply
-    text-gray-400
-    mt-2 md:mt-5 
+    text-gray-500
+    mt-2 md:mt-6 
     text-base md:text-lg xl:text-xl 
     leading-6 md:leading-8 xl:leading-10 
-    text-left xl:text-center
+    text-left
+}
+
+.highlightText1 {
+    @apply
+    text-purple-600
+    font-semibold
+}
+
+.highlightText2 {
+   @apply
+    text-pink-600
+    font-semibold
+}
+
+.highlightText3 {
+   @apply
+    text-yellow-600
+    font-semibold
 }

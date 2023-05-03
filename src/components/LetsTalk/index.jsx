@@ -1,11 +1,11 @@
+import { successMessage } from "../../helpers/toast";
 import CustomButton from "../CustomButton";
 import styles from "./style.module.css";
-import { toast } from "react-toastify";
 
 const LetsTalk = () => {
   const copyEmail = () => {
     navigator.clipboard.writeText("mertcankose142@gmail.com");
-    toast.success("Email copied to clipboard!");
+    successMessage("Email copied to clipboard!");
   };
 
   return (
