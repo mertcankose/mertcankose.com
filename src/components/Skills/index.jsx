@@ -26,7 +26,7 @@ const Skills = ({ className }) => {
         <CustomButton
           type="external"
           href="/MertcanKose-Resume.pdf"
-          text="Download CV"
+          text="View CV"
           className={styles.downloadButton}
         />
       </div>
