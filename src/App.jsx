@@ -29,6 +29,7 @@ const router = createBrowserRouter(
 
         <Route path="about" element={<About />} />
         <Route path="career" element={<Career />} />
+        <Route path="/public/privacy-policy.html" />
       </Route>
 
       <Route path="*" element={<NotFound />} />
