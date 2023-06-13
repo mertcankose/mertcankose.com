@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styles from "./style.module.css";
 import { menu } from "../../constants/menu";
 import SocialBar from "../SocialBar";
@@ -18,6 +18,9 @@ const Footer = ({ className }) => {
             {menu.name}
           </NavLink>
         ))}
+        <a href="/staj-kabul-formu.pdf" target="_blank">
+          .
+        </a>
       </nav>
       <SocialBar />
     </footer>
