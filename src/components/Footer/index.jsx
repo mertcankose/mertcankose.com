@@ -18,9 +18,9 @@ const Footer = ({ className }) => {
             {menu.name}
           </NavLink>
         ))}
-        <a href="/staj-kabul-formu.pdf" target="_blank">
+        {/* <a href="/staj-kabul-formu.pdf" target="_blank">
           .
-        </a>
+        </a> */}
       </nav>
       <SocialBar />
     </footer>
