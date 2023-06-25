@@ -6,12 +6,6 @@ const Career = () => {
   return (
     <>
       <CareerLine items={allCareers} />
-      <a href="/s.pdf" target="_blank">
-        .
-      </a>
-      <a href="/a.pdf" target="_blank">
-        _
-      </a>
     </>
   );
 };
