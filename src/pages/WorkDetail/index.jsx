@@ -7,6 +7,7 @@ import { ReactComponent as Apple } from "../../assets/icons/apple.svg";
 import { ReactComponent as PlayStore } from "../../assets/icons/playstore.svg";
 import { ReactComponent as Github } from "../../assets/icons/github.svg";
 import { ReactComponent as Web } from "../../assets/icons/web.svg";
+import { PhotoView } from "react-photo-view";
 
 const WorkDetail = () => {
   const [work, setWork] = useState(null);
@@ -46,7 +47,10 @@ const WorkDetail = () => {
       {work?.text?.length > 0 && <div className="mt-4">{textPrettier(work?.text)}</div>}
 
       <div className="flex flex-col gap-8 mt-4">
-        <img src={work?.photo1} alt="" width={500} />
+        <PhotoView src={work?.photo1}>
+          <img src={work?.photo1} alt="" width={500} />
+        </PhotoView>
+
         <img src={work?.photo2} alt="" width={500} />
       </div>
     </div>
