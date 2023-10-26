@@ -41,10 +41,14 @@ export const skills = [
   },
   {
     id: 11,
-    text: "Figma",
+    text: "Solidity",
   },
   {
     id: 12,
+    text: "Figma",
+  },
+  {
+    id: 13,
     text: "Wordpress",
   },
 ];
