@@ -3,6 +3,7 @@
     flex flex-col
     items-center
     px-4 2xl:px-0
+    scroll-mt-4
 }
 .heading {
     @apply

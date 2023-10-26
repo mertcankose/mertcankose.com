@@ -27,21 +27,24 @@ export const skills = [
     id: 7,
     text: "Tailwind CSS",
   },
-
   {
     id: 8,
     text: "Vue",
   },
   {
     id: 9,
-    text: "Web3",
+    text: "Docker",
   },
   {
     id: 10,
-    text: "Figma",
+    text: "Web3",
   },
   {
     id: 11,
+    text: "Figma",
+  },
+  {
+    id: 12,
     text: "Wordpress",
   },
 ];

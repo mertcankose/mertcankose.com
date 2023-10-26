@@ -9,8 +9,9 @@ const Home = () => {
   return (
     <Fragment>
       <Main className={styles.mainSection} />
-      <Works items={selectedWorks} />
-      <CareerLine items={allCareers} />
+      <Works items={selectedWorks} className="mb-12" />
+      <CareerLine items={allCareers} className="mt-24" />
+
       <Skills className={styles.skillsSection} />
       <LetsTalk />
     </Fragment>

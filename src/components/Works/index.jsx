@@ -4,9 +4,9 @@ import WorksGrid from "../WorksGrid";
 import { Link } from "react-router-dom";
 import CustomButton from "../CustomButton";
 
-const Works = ({ items = [] }) => {
+const Works = ({ items = [], className }) => {
   return (
-    <div className={styles.container}>
+    <div className={[styles.container, className].join(" ")} id="works">
       <h2 className={styles.heading}>Selected Works</h2>
       <WorksGrid items={items} />
       <Link to="/work">
