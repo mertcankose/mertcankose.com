@@ -1,5 +1,4 @@
 import styles from "./style.module.css";
-import { allWorks } from "../../constants/work";
 import WorksGrid from "../WorksGrid";
 import { Link } from "react-router-dom";
 import CustomButton from "../CustomButton";

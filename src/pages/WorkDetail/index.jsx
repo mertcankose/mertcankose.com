@@ -19,42 +19,32 @@ const WorkDetail = () => {
     setWork(work);
   }, []);
 
+  const textPrettier = (text) => {
+    // extract with \n
+    const paragraphs = text.split("\n");
+    return paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>);
+  };
+
   return (
     <div className={styles.worksDetailContainer}>
       <h2 className={styles.title}>{work?.title}</h2>
       <p className={styles.description}>{work?.description}</p>
       <div className="flex items-center gap-3">
         {work?.appStore.length > 0 && (
-          <ForwardBox
-            icon={<Apple width="24" height="24" />}
-            text="App Store"
-            link={work?.appStore}
-          />
+          <ForwardBox icon={<Apple width="24" height="24" />} text="App Store" link={work?.appStore} />
         )}
         {work?.playStore.length > 0 && (
-          <ForwardBox
-            icon={<PlayStore width="24" height="24" />}
-            text="Play Store"
-            link={work?.playStore}
-          />
+          <ForwardBox icon={<PlayStore width="24" height="24" />} text="Play Store" link={work?.playStore} />
         )}
 
         {work?.githubLink.length > 0 && (
-          <ForwardBox
-            icon={<Github width="24" height="24" />}
-            text="Github"
-            link={work?.githubLink}
-          />
+          <ForwardBox icon={<Github width="24" height="24" />} text="Github" link={work?.githubLink} />
         )}
 
-        {work?.webLink.length > 0 && (
-          <ForwardBox
-            icon={<Web width="24" height="24" />}
-            text="Web Sitesi"
-            link={work?.webLink}
-          />
-        )}
+        {work?.webLink.length > 0 && <ForwardBox icon={<Web width="24" height="24" />} text="Web Sitesi" link={work?.webLink} />}
       </div>
+      {work?.text?.length > 0 && <div className="mt-4">{textPrettier(work?.text)}</div>}
+
       <div className="flex flex-col gap-8 mt-4">
         <img src={work?.photo1} alt="" width={500} />
         <img src={work?.photo2} alt="" width={500} />

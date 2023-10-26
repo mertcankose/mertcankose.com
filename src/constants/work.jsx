@@ -31,6 +31,18 @@ import qrScanPhoto1 from "../assets/images/qrscan/photo1.png";
 import qrScanPhoto2 from "../assets/images/qrscan/photo2.png";
 import omAppPhoto1 from "../assets/images/omapp/photo1.png";
 import omAppPhoto2 from "../assets/images/omapp/photo2.png";
+import finrendPhoto1 from "../assets/images/finrend/photo1.png";
+import finrendPhoto2 from "../assets/images/finrend/photo2.png";
+import playlandPhoto1 from "../assets/images/playland/photo1.png";
+import playlandPhoto2 from "../assets/images/playland/photo2.png";
+import openvotePhoto1 from "../assets/images/openvote/photo1.png";
+import openvotePhoto2 from "../assets/images/openvote/photo2.png";
+import usecoPhoto1 from "../assets/images/useco/photo1.png";
+import usecoPhoto2 from "../assets/images/useco/photo2.png";
+import ecoursePhoto1 from "../assets/images/ecourse/photo1.png";
+import ecoursePhoto2 from "../assets/images/ecourse/photo2.png";
+import plndversePhoto1 from "../assets/images/plndverse/photo1.png";
+import plndversePhoto2 from "../assets/images/plndverse/photo2.png";
 import filminnPhoto1 from "../assets/images/filminn/photo1.png";
 import filminnPhoto2 from "../assets/images/filminn/photo2.png";
 import directacademyPhoto1 from "../assets/images/directacademy/photo1.png";
@@ -50,13 +62,12 @@ export const selectedWorks = [
     title: "E-Servis",
     description:
       "A platform where parents can monitor their children on the school bus along the way, and school management and service companies can easily control and manage the bus.",
-    tags: ["React", "TailwindCSS"],
+    tags: ["React", "Vite", "TailwindCSS", "Google Map"],
     playStore: "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
     appStore: "https://apps.apple.com/tr/app/eservis/id6463719378",
     webLink: "https://panel.eservis.app/",
     githubLink: "",
     generalLink: "/work/e-servis",
-    text: "Sample Login\nphone: +905359161408\npassword: 1230,aaa",
   },
   {
     image: funlordMobileImage,
@@ -69,7 +80,6 @@ export const selectedWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/funlord-mobile",
-    text: "",
   },
   {
     image: funlordWebImage,
@@ -82,7 +92,6 @@ export const selectedWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/funlord-admin",
-    text: "",
   },
   {
     image: aybumobileImage,
@@ -94,7 +103,6 @@ export const selectedWorks = [
     webLink: "https://aybumobile.com",
     githubLink: "https://github.com/thesammet/aybumobile",
     generalLink: "/work/aybu-mobile",
-    text: "",
   },
   {
     image: qrScanImage,
@@ -106,7 +114,6 @@ export const selectedWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/qr-scan",
-    text: "",
   },
   {
     image: omAppImage,
@@ -119,7 +126,6 @@ export const selectedWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/omapp",
-    text: "",
   },
   {
     name: "finrend",
@@ -133,9 +139,6 @@ export const selectedWorks = [
     webLink: "http://finrend.com/",
     githubLink: "",
     generalLink: "/work/finrend",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
-    text: "",
   },
   {
     name: "playland",
@@ -149,9 +152,6 @@ export const selectedWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/playland",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
-    text: "",
   },
   {
     name: "open-vote",
@@ -165,9 +165,6 @@ export const selectedWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/open-vote",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
-    text: "",
   },
   {
     name: "useco",
@@ -180,9 +177,6 @@ export const selectedWorks = [
     webLink: "https://useco.net/",
     githubLink: "",
     generalLink: "/work/useco",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
-    text: "",
   },
   {
     name: "plndverse",
@@ -195,9 +189,6 @@ export const selectedWorks = [
     webLink: "https://www.plndverse.com/",
     githubLink: "",
     generalLink: "/work/plndverse",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
-    text: "",
   },
   {
     name: "e-course",
@@ -210,9 +201,6 @@ export const selectedWorks = [
     webLink: "https://e-course-dashboard.vercel.app/",
     githubLink: "",
     generalLink: "/work/e-course",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
-    text: "",
   },
   {
     name: "filminn",
@@ -225,9 +213,6 @@ export const selectedWorks = [
     webLink: "https://filminn.vercel.app/",
     githubLink: "",
     generalLink: "/work/filminn",
-    photo1: filminnPhoto1,
-    photo2: filminnPhoto2,
-    text: "",
   },
   {
     name: "direct-academy",
@@ -240,9 +225,6 @@ export const selectedWorks = [
     webLink: "https://directacademy.net/",
     githubLink: "",
     generalLink: "/work/direct-academy",
-    photo1: directacademyPhoto1,
-    photo2: directacademyPhoto2,
-    text: "",
   },
   {
     name: "galaksi-organization",
@@ -255,9 +237,6 @@ export const selectedWorks = [
     webLink: "https://galaksiorganizasyon.com/",
     githubLink: "",
     generalLink: "/work/galaksi-organization",
-    photo1: galaksiorganizasyonPhoto1,
-    photo2: galaksiorganizasyonPhoto2,
-    text: "",
   },
 ];
 
@@ -268,14 +247,15 @@ export const allWorks = [
     title: "E-Servis",
     description:
       "A platform where parents can monitor their children on the school bus along the way, and school management and service companies can easily control and manage the bus.",
-    tags: ["React", "TailwindCSS"],
-    playStore: "",
-    appStore: "",
-    webLink: "",
+    tags: ["React", "Vite", "TailwindCSS", "Google Map"],
+    playStore: "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
+    appStore: "https://apps.apple.com/tr/app/eservis/id6463719378",
+    webLink: "https://panel.eservis.app/",
     githubLink: "",
     generalLink: "/work/e-servis",
     photo1: eservisPhoto1,
     photo2: eservisPhoto2,
+    text: "Sample Login\nphone: +905359161408\npassword: 1230,aaa",
   },
   {
     name: "funlord-mobile",
@@ -291,6 +271,7 @@ export const allWorks = [
     generalLink: "/work/funlord-mobile",
     photo1: funlordMobilePhoto1,
     photo2: funlordMobilePhoto2,
+    text: "",
   },
   {
     name: "funlord-admin",
@@ -306,6 +287,7 @@ export const allWorks = [
     generalLink: "/work/funlord-admin",
     photo1: funlordAdminPhoto1,
     photo2: funlordAdminPhoto2,
+    text: "",
   },
   {
     name: "aybu-mobile",
@@ -321,6 +303,7 @@ export const allWorks = [
     generalLink: "/work/aybu-mobile",
     photo1: aybuMobilePhoto1,
     photo2: aybuMobilePhoto2,
+    text: "",
   },
 
   {
@@ -337,6 +320,7 @@ export const allWorks = [
     generalLink: "/work/qr-scan",
     photo1: qrScanPhoto1,
     photo2: qrScanPhoto2,
+    text: "",
   },
   {
     name: "omapp",
@@ -352,6 +336,7 @@ export const allWorks = [
     generalLink: "/work/omapp",
     photo1: omAppPhoto1,
     photo2: omAppPhoto2,
+    text: "",
   },
   {
     name: "finrend",
@@ -365,8 +350,9 @@ export const allWorks = [
     webLink: "http://finrend.com/",
     githubLink: "",
     generalLink: "/work/finrend",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
+    photo1: finrendPhoto1,
+    photo2: finrendPhoto2,
+    text: "",
   },
   {
     name: "playland",
@@ -377,11 +363,12 @@ export const allWorks = [
     tags: ["React Native"],
     playStore: "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
     appStore: "https://apps.apple.com/tr/app/playland-mobil/id1631854531",
-    webLink: "",
+    webLink: "plndverse.com",
     githubLink: "",
     generalLink: "/work/playland",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
+    photo1: playlandPhoto1,
+    photo2: playlandPhoto2,
+    text: "",
   },
   {
     name: "open-vote",
@@ -395,8 +382,9 @@ export const allWorks = [
     webLink: "",
     githubLink: "",
     generalLink: "/work/open-vote",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
+    photo1: openvotePhoto1,
+    photo2: openvotePhoto2,
+    text: "",
   },
   {
     name: "useco",
@@ -409,8 +397,9 @@ export const allWorks = [
     webLink: "https://useco.net/",
     githubLink: "",
     generalLink: "/work/useco",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
+    photo1: usecoPhoto1,
+    photo2: usecoPhoto2,
+    text: "",
   },
   {
     name: "plndverse",
@@ -423,22 +412,24 @@ export const allWorks = [
     webLink: "https://www.plndverse.com/",
     githubLink: "",
     generalLink: "/work/plndverse",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
+    photo1: plndversePhoto1,
+    photo2: plndversePhoto2,
+    text: "",
   },
   {
     name: "e-course",
     image: ecourseImage,
     title: "E-Course",
     description: "E-Course is a example dashboard of a e-learning platform.",
-    tags: ["Vue", "Firebase"],
+    tags: ["Vue", "Vuex", "Firebase"],
     playStore: "",
     appStore: "",
     webLink: "https://e-course-dashboard.vercel.app/",
     githubLink: "",
     generalLink: "/work/e-course",
-    photo1: emptyPhoto,
-    photo2: emptyPhoto,
+    photo1: ecoursePhoto1,
+    photo2: ecoursePhoto2,
+    text: "Sample Login\nemail: mertcankose97@outlook.com\npassword: 123456789",
   },
   {
     name: "filminn",
@@ -453,6 +444,7 @@ export const allWorks = [
     generalLink: "/work/filminn",
     photo1: filminnPhoto1,
     photo2: filminnPhoto2,
+    text: "",
   },
   {
     name: "direct-academy",
@@ -467,6 +459,7 @@ export const allWorks = [
     generalLink: "/work/direct-academy",
     photo1: directacademyPhoto1,
     photo2: directacademyPhoto2,
+    text: "",
   },
   {
     name: "galaksi-organization",
@@ -481,6 +474,7 @@ export const allWorks = [
     generalLink: "/work/galaksi-organization",
     photo1: galaksiorganizasyonPhoto1,
     photo2: galaksiorganizasyonPhoto2,
+    text: "",
   },
   {
     name: "monster-hunt",
@@ -495,6 +489,7 @@ export const allWorks = [
     generalLink: "/work/monster-hunt",
     photo1: monsterhuntPhoto1,
     photo2: monsterhuntPhoto2,
+    text: "",
   },
   {
     name: "daily-frontend",
@@ -509,6 +504,7 @@ export const allWorks = [
     generalLink: "/work/daily-frontend",
     photo1: dailyfrontendPhoto1,
     photo2: dailyfrontendPhoto2,
+    text: "",
   },
   {
     name: "simon-game",
@@ -523,5 +519,6 @@ export const allWorks = [
     generalLink: "/work/simon-game",
     photo1: simongamePhoto1,
     photo2: simongamePhoto2,
+    text: "",
   },
 ];
