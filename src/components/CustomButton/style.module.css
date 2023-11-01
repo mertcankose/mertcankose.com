@@ -5,5 +5,6 @@
 
 .contactInner {
     @apply
+    w-full items-center justify-center text-center
     bg-gray-900 hover:bg-white transition-all duration-150 text-white hover:text-black px-4 py-2.5 rounded-2xl
 }

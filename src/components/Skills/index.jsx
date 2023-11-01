@@ -9,11 +9,9 @@ const Skills = ({ className }) => {
       <div className={styles.textArea}>
         <h2 className={styles.thingsTitle}>Things I do</h2>
         <p className={styles.thingsText}>
-          I develop custom mobile and web applications tailored to your needs. I
-          specialize in React Native app development, as well as web development
-          using React, and Vue. Also Wordpress. I also create decentralized
-          applications (dApps) using blockchain technology. Let's bring your
-          vision to life!
+          I develop custom mobile and web applications tailored to your needs. I specialize in React Native app development, as
+          well as web development using React, and Vue. Also Wordpress. I also create decentralized applications (dApps) using
+          blockchain technology. Let's bring your vision to life!
         </p>
       </div>
       <div className={styles.skillsArea}>
@@ -23,12 +21,7 @@ const Skills = ({ className }) => {
             <Tag tag={skill.text} key={skill.id} />
           ))}
         </div>
-        <CustomButton
-          type="external"
-          href="/MertcanKose-Resume.pdf"
-          text="View CV"
-          className={styles.downloadButton}
-        />
+        <CustomButton type="external" href="/MertcanKose-Resume.pdf" text="View CV" />
       </div>
     </section>
   );
