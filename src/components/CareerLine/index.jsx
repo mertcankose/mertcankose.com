@@ -19,7 +19,8 @@ const CareerLine = ({ className }) => {
             <img src={tubitakuzaylogo} alt="tubitak-uzay" className="w-12 h-12" />
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
-            Intern <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Latest</span>
+            Tübitak Uzay{" "}
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Latest</span>
           </h3>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400">July 2023 - Aug 2023</time>
           <p className="text-blue-800 font-semibold text-base mb-3">Learning Network and SAP</p>
