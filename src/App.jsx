@@ -1,10 +1,5 @@
 import { Fragment } from "react";
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import PrivateRoutes from "./utils/private-route";
 import RootLayout from "./layouts/RootLayout";
@@ -16,6 +11,8 @@ import WorksLayout from "./layouts/WorksLayout";
 import { Toaster } from "react-hot-toast";
 import { StoreProvider } from "./context/store";
 import Career from "./pages/Career";
+import Support from "./pages/Support";
+import Akakce from "./pages/Akakce";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,8 +25,10 @@ const router = createBrowserRouter(
         </Route>
 
         <Route path="about" element={<About />} />
+        <Route path="support" element={<Support />} />
         <Route path="career" element={<Career />} />
         <Route path="/public/privacy-policy.html" />
+        <Route path="akakce-case-study" element={<Akakce />} />
       </Route>
 
       <Route path="*" element={<NotFound />} />
