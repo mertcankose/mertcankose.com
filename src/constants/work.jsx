@@ -18,6 +18,11 @@ import dailyfrontendImage from "../assets/images/dailyfrontend/dailyfrontend.png
 import simongameImage from "../assets/images/simongame/simongame.png";
 import okkoImage from "../assets/images/okko/okko.png";
 import nodeapiImage from "../assets/images/nodeapi/nodeapi.png";
+import pouchMobileImage from "../assets/images/pouchmobile/pouchmobile.png";
+import navvigoMobileImage from "../assets/images/navvigomobile/navvigomobile.png";
+import navvigoWebImage from "../assets/images/navvigoweb/navvigoweb.png";
+import birF1TImage from "../assets/images/1f1t/1f1t.png";
+import tummiadImage from "../assets/images/tummiad/tummiad.png";
 
 import emptyPhoto from "../assets/images/empty.png";
 
@@ -61,8 +66,38 @@ import okkoPhoto1 from "../assets/images/okko/photo1.png";
 import okkoPhoto2 from "../assets/images/okko/photo2.png";
 import nodeapiPhoto1 from "../assets/images/nodeapi/photo1.png";
 import nodeapiPhoto2 from "../assets/images/nodeapi/photo2.png";
+import pouchMobilePhoto from "../assets/images/pouchmobile/photo1.png";
+import navvigoMobilePhoto from "../assets/images/navvigomobile/photo1.png";
+import navvigoWebPhoto from "../assets/images/navvigoweb/photo1.png";
+import birF1TPhoto from "../assets/images/1f1t/photo1.png";
+import tummiadPhoto from "../assets/images/tummiad/photo1.png";
 
 export const selectedWorks = [
+  {
+    image: pouchMobileImage,
+    title: "Pouch Wallet",
+    description: "A crypto wallet unlike any other, seamless portfolio management",
+    tags: ["React Native", "Blockchain"],
+    playStore: "",
+    appStore: "",
+    webLink: "",
+    githubLink: "",
+    generalLink: "/work/pouch-wallet",
+    type: "mobile",
+  },
+  {
+    image: navvigoMobileImage,
+    title: "Navvigo",
+    description:
+      "Decentralized navigation app that designed socio-economically to change people's traveling habits by its special rewarding system.",
+    tags: ["React Native", "Blockchain", "Solidity", "Web3"],
+    playStore: "",
+    appStore: "",
+    webLink: "",
+    githubLink: "",
+    generalLink: "/work/navvigo-mobile",
+    type: "mobile",
+  },
   {
     image: funlordMobileImage,
     title: "Funlord Mobil",
@@ -75,6 +110,19 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/funlord-mobile",
     type: "mobile",
+  },
+  {
+    image: okkoImage,
+    title: "Okko",
+    description:
+      "Okko is an entertainment company with adventure parks and various other entertainment centers. I developed a ticket buying application for this company. The idea is that there is no queue at the box office and people can buy tickets easily.",
+    tags: ["React", "Vite", "TailwindCSS"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://bilet.okko.com.tr/",
+    githubLink: "",
+    generalLink: "/work/okko",
+    type: "web",
   },
   {
     image: aybumobileImage,
@@ -116,6 +164,45 @@ export const selectedWorks = [
     type: "mobile",
   },
   {
+    name: "navvigoweb",
+    image: navvigoWebImage,
+    title: "Navvigo Web",
+    description: "Official website of the Navvigo project.",
+    tags: ["React", "TailwindCSS"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://navvigo.com/",
+    githubLink: "",
+    generalLink: "/work/navvigo-web",
+    type: "web",
+  },
+  {
+    name: "tummiad",
+    image: tummiadImage,
+    title: "Tümmiad",
+    description: "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
+    tags: ["Wordpress"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://tummiad.org.tr/",
+    githubLink: "",
+    generalLink: "/work/tummiad",
+    type: "web",
+  },
+  {
+    name: "1f1t",
+    image: birF1TImage,
+    title: "Bir Fikir Bir Türkiye",
+    description: "1 Fikir 1 Türkiye Organizasyonunun Resmi Websitesi",
+    tags: ["Wordpress"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://1fikir1turkiye.com/",
+    githubLink: "",
+    generalLink: "/work/1f1t",
+    type: "web",
+  },
+  {
     name: "open-vote",
     image: openVoteImage,
     title: "Open Vote",
@@ -155,19 +242,7 @@ export const selectedWorks = [
     generalLink: "/work/qr-scan",
     type: "mobile",
   },
-  {
-    image: okkoImage,
-    title: "Okko",
-    description:
-      "Okko is an entertainment company with adventure parks and various other entertainment centers. I developed a ticket buying application for this company. The idea is that there is no queue at the box office and people can buy tickets easily.",
-    tags: ["React", "Vite", "TailwindCSS"],
-    playStore: "",
-    appStore: "",
-    webLink: "https://bilet.okko.com.tr/",
-    githubLink: "",
-    generalLink: "/work/okko",
-    type: "web",
-  },
+
   {
     image: eservisImage,
     title: "E-Servis",
@@ -289,6 +364,40 @@ export const selectedWorks = [
 
 export const allWorks = [
   {
+    name: "pouch-wallet",
+    image: pouchMobileImage,
+    title: "Pouch Wallet",
+    description: "A crypto wallet unlike any other, seamless portfolio management.",
+    tags: ["React Native", "Blockchain"],
+    playStore: "",
+    appStore: "",
+    webLink: "",
+    githubLink: "",
+    generalLink: "/work/funlord-mobile",
+    photo1: pouchMobilePhoto,
+    photo2: pouchMobilePhoto,
+    text: "",
+    type: "mobile",
+  },
+  {
+    name: "navvigo-mobile",
+    image: navvigoMobileImage,
+    title: "Navvigo",
+    description:
+      "Decentralized navigation app that designed socio-economically to change people's traveling habits by its special rewarding system.",
+    tags: ["React Native", "Blockchain", "Solidity", "Web3"],
+    playStore: "",
+    appStore: "",
+    webLink: "",
+    githubLink: "",
+    generalLink: "/work/navvigo-mobile",
+    photo1: navvigoMobilePhoto,
+    photo2: navvigoMobilePhoto,
+    text: "",
+    type: "mobile",
+  },
+
+  {
     name: "funlord-mobile",
     image: funlordMobileImage,
     title: "Funlord Mobil",
@@ -355,6 +464,54 @@ export const allWorks = [
     photo2: omAppPhoto2,
     text: "",
     type: "mobile",
+  },
+  {
+    name: "navvigo-web",
+    image: navvigoWebImage,
+    title: "Navvigo Web",
+    description: "Official website of the Navvigo project.",
+    tags: ["React", "TailwindCSS"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://navvigo.com/",
+    githubLink: "",
+    generalLink: "/work/navvigo-web",
+    photo1: navvigoWebPhoto,
+    photo2: navvigoWebPhoto,
+    text: "",
+    type: "web",
+  },
+  {
+    name: "tummiad",
+    image: tummiadImage,
+    title: "Tümmiad",
+    description: "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
+    tags: ["Wordpress"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://tummiad.org.tr/",
+    githubLink: "",
+    generalLink: "/work/tummiad",
+    photo1: tummiadPhoto,
+    photo2: tummiadPhoto,
+    text: "",
+    type: "web",
+  },
+  {
+    name: "1f1t",
+    image: birF1TImage,
+    title: "1 Fikir 1 Türkiye",
+    description: "1 Fikir 1 Türkiye Organizasyonunun Resmi Websitesi",
+    tags: ["Wordpress"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://1fikir1turkiye.com/",
+    githubLink: "",
+    generalLink: "/work/1f1t",
+    photo1: birF1TPhoto,
+    photo2: birF1TPhoto,
+    text: "",
+    type: "web",
   },
   {
     name: "open-vote",

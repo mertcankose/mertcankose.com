@@ -7,6 +7,8 @@ import vimlogo from "../../assets/images/career/vim.png";
 import { Link } from "react-router-dom";
 import { ReactComponent as ArrowRight } from "../../assets/icons/arrow-right.svg";
 import styles from "./style.module.css";
+import valenturaLogo from "../../assets/images/career/valentura-logo.jpeg";
+import eservisLogo from "../../assets/images/career/eservis-logo.jpeg";
 
 const CareerLine = ({ className }) => {
   return (
@@ -16,26 +18,33 @@ const CareerLine = ({ className }) => {
       <ol className="relative border-l border-gray-200">
         <li className="mb-10 ml-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-            <img src={tubitakuzaylogo} alt="tubitak-uzay" className="w-12 h-12" />
+            <img src={valenturaLogo} alt="valentura" className="w-12 h-12" />
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
-            Tübitak Uzay{" "}
+            Valentura Technology & Investment{" "}
             <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Latest</span>
           </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">July 2023 - Aug 2023</time>
-          <p className="text-blue-800 font-semibold text-base mb-3">Learning Network and SAP</p>
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">Apr 2022 - Present</time>
+          <p className="text-blue-800 font-semibold text-base mb-3">Web, Mobile, Blockchain Engineer | Team Lead</p>
           <p className="mb-4 text-base font-normal text-gray-500">
-            I worked on network, system and SAP software at Tubitak Space. It was an internship where I understood the importance
-            of in-house security and software security.
+            During the time I worked in this company, I had the opportunity to develop projects in many areas. I became a team
+            leader because I learned fast and contributed significantly to the{" "}
+            <span className="font-bold text-green-500">profitability</span> of the company.
           </p>
+          <Link
+            to="/work"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700"
+          >
+            <ArrowRight width="16" height="16" className="mr-1" /> Works
+          </Link>
         </li>
         <li className="mb-10 ml-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
             <img src={freelancerLogo} alt="freelancer" className="w-12 h-12" />
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">Freelancer </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">June 2022 - Current</time>
-          <p className="text-blue-800 font-semibold text-base mb-3">Web and Mobile Developer</p>
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">March 2020 - Present</time>
+          <p className="text-blue-800 font-semibold text-base mb-3">Web, Mobile and Blockchain Developer</p>
           <p className="mb-4 text-base font-normal text-gray-500">
             As a freelancer for a while, we have taken and implemented various works with a team that I have both recruited from
             outside and formed with my close software developer friends. You can find my portfolio of work on my website.
@@ -47,6 +56,31 @@ const CareerLine = ({ className }) => {
             <ArrowRight width="16" height="16" className="mr-1" /> Works
           </Link>
         </li>
+        <li className="mb-10 ml-6">
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
+            <img src={eservisLogo} alt="e-servis" className="w-12 h-12" />
+          </span>
+          <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">Vyrsos Technology </h3>
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">May 2023 - Dec 2023</time>
+          <p className="text-blue-800 font-semibold text-base mb-3">Frontend Developer</p>
+          <p className="mb-4 text-base font-normal text-gray-500">
+            I did the web development of a platform where parents can monitor their children in the school bus along the way, and
+            school management and service companies can easily control and manage the service.
+          </p>
+        </li>
+        <li className="mb-10 ml-6">
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
+            <img src={tubitakuzaylogo} alt="tubitak-uzay" className="w-12 h-12" />
+          </span>
+          <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">Tübitak Uzay </h3>
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">July 2023 - Aug 2023</time>
+          <p className="text-blue-800 font-semibold text-base mb-3">Learning Network and SAP</p>
+          <p className="mb-4 text-base font-normal text-gray-500">
+            I worked on network, system and SAP software at Tubitak Space. It was an internship where I understood the importance
+            of in-house security and software security.
+          </p>
+        </li>
+
         <li className="mb-10 ml-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
             <img src={jotformlogo} alt="jotform" className="w-16 h-16" />

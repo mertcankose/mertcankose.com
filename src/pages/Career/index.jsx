@@ -5,7 +5,7 @@ import styles from "./style.module.css";
 const Career = () => {
   return (
     <>
-      <CareerLine items={allCareers} />
+      <CareerLine items={allCareers} className="mt-20" />
     </>
   );
 };
