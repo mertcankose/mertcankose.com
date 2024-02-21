@@ -25,11 +25,10 @@ const CareerLine = ({ className }) => {
             <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Latest</span>
           </h3>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400">Apr 2022 - Present</time>
-          <p className="text-blue-800 font-semibold text-base mb-3">Web, Mobile, Blockchain Engineer | Team Lead</p>
+          <p className="text-blue-800 font-semibold text-base mb-3">Web, Mobile, Blockchain Engineer</p>
           <p className="mb-4 text-base font-normal text-gray-500">
-            During the time I worked in this company, I had the opportunity to develop projects in many areas. I became a team
-            leader because I learned fast and contributed significantly to the{" "}
-            <span className="font-bold text-green-500">profitability</span> of the company.
+            During the time I worked in this company, I had the opportunity to develop projects in many areas. I learned fast and
+            contributed significantly to the <span className="font-bold text-green-500">profitability</span> of the company.
           </p>
           <Link
             to="/work"
