@@ -21,7 +21,7 @@ const Skills = ({ className }) => {
             <Tag tag={skill.text} key={skill.id} />
           ))}
         </div>
-        <CustomButton type="external" href="/MertcanKose-Resume.pdf" text="View CV" />
+        <CustomButton type="external" href="https://tr.linkedin.com/in/mertcankose-" text="View CV" />
       </div>
     </section>
   );
