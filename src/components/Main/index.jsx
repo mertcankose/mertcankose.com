@@ -23,7 +23,7 @@ const Main = ({ className }) => {
 
       <div className="flex items-center gap-4 mt-8">
         <CustomButton onClick={() => copyEmail()} text="Copy Email" className="w-32" />
-        <CustomButton type="external" href="/MertcanKose-Resume.pdf" text="View CV" className="w-32" />
+        <CustomButton type="external" href="https://tr.linkedin.com/in/mertcankose-" text="View CV" className="w-32" />
       </div>
 
       <a href="#works" className="mt-10">
