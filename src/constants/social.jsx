@@ -21,7 +21,7 @@ export const social = [
   },
   {
     name: "Email",
-    url: "mailto:info@mertcankose.com",
+    url: "mailto:contact@mertcankose.com",
     icon: <Email width="28" height="28" />,
   },
 ];

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Bar = ({ className }) => {
   return (
     <a
-      href="mailto:info@mertcankose.com"
+      href="mailto:contact@mertcankose.com"
       className={[styles.bar, className].join(" ")}
     >
       <div className="relative flex overflow-x-hidden">

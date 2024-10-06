@@ -7,7 +7,7 @@ import { successMessage } from "../../helpers/toast";
 
 const Main = ({ className }) => {
   const copyEmail = () => {
-    navigator.clipboard.writeText("info@mertcankose.com");
+    navigator.clipboard.writeText("contact@mertcankose.com");
     successMessage("Email copied to clipboard!");
   };
 
