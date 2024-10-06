@@ -6,10 +6,15 @@ const Support = () => {
     <div className={styles.container}>
       <h2 className={styles.heading}>Support</h2>
       <p className={styles.description}>
-        I'm here to assist you. Whether you have questions, feedback, or just want to say hello, feel free to drop me an email.
-        I'm ready to help you on your journey!
+        I'm here to assist you. Whether you have questions, feedback, or just
+        want to say hello, feel free to drop me an email. I'm ready to help you
+        on your journey!
       </p>
-      <CustomButton href="mailto:mertcankose142@gmail.com" text="Contact Me" className="mt-10 mx-auto" />
+      <CustomButton
+        href="mailto:info@mertcankose.com"
+        text="Contact Me"
+        className="mt-10 mx-auto"
+      />
     </div>
   );
 };
