@@ -1,9 +1,17 @@
+import { Helmet } from "react-helmet";
 import CustomButton from "../../components/CustomButton";
 import styles from "./style.module.css";
 
 const About = () => {
   return (
     <div className={styles.about}>
+      <Helmet>
+        <title>Mertcan Köse | Mobile, Web and Blockchain Developer</title>
+        <meta
+          name="description"
+          content="Mertcan Köse - Mobile, Web and Blockchain Developer"
+        />
+      </Helmet>
       <h2 className={styles.heading}>Hi, hello and welcome stranger</h2>
       <p className={styles.description}>
         I'm a software engineer with a passion for creating beautiful,

@@ -15,13 +15,14 @@ const Main = ({ className }) => {
     <section className={[styles.main, className].join(" ")}>
       <AnimatedText text="Hi, I’m Mertcan Köse." />
       <AnimatedText
-        text="I code mobile and web applications."
+        text="I craft mobile, web, and blockchain applications."
         className="mt-2"
       />
 
       <p className={styles.description}>
-        I’m a Software Engineer who developing mobile and web applications and
-        enjoys this process.
+        With a passion for innovative technologies, I transform complex ideas
+        into user-friendly solutions, focusing on clean code and seamless user
+        experiences.
       </p>
       <SocialBar />
 
@@ -33,13 +34,13 @@ const Main = ({ className }) => {
         />
         <CustomButton
           type="external"
-          href="https://tr.linkedin.com/in/mertcankose-"
+          href="/MertcanKose_Resume.pdf"
           text="View CV"
           className="w-32"
         />
       </div>
 
-      <a href="#works" className="mt-10">
+      <a href="#career" className="mt-10">
         <ArrowDown width="30" height="30" />
       </a>
     </section>

@@ -4,13 +4,22 @@ import { LetsTalk, Main, Skills, Works } from "../../components";
 import { selectedWorks } from "../../constants/work";
 import { allCareers } from "../../constants/career";
 import CareerLine from "../../components/CareerLine";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
     <Fragment>
+      <Helmet>
+        <title>Mertcan Köse | Mobile, Web and Blockchain Developer</title>
+        <meta
+          name="description"
+          content="Mertcan Köse - Mobile, Web and Blockchain Developer"
+        />
+      </Helmet>
+
       <Main className={styles.mainSection} />
-      <Works items={selectedWorks} className="mb-12" />
-      <CareerLine items={allCareers} className="mt-24" />
+      <CareerLine items={allCareers} className="mb-12" />
+      <Works items={selectedWorks} className="mt-24" />
 
       <Skills className={styles.skillsSection} />
       <LetsTalk />

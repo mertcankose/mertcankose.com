@@ -1,16 +1,10 @@
 .main {
-    @apply
-    flex flex-col items-center justify-center
-    px-8 md:px-0
+  @apply flex flex-col items-center justify-center
+    px-8 md:px-0;
 }
-
 
 .description {
-    @apply
-    text-lg md:text-2xl text-center
-    text-gray-400 w-full md:w-3/5
-    mt-3 mb-6
+  @apply text-lg md:text-2xl text-center
+    text-gray-400 w-full md:w-3/4
+    mt-3 mb-6;
 }
-
-
-

@@ -178,6 +178,7 @@ export const selectedWorks = [
     generalLink: "/work/aybu-mobile",
     type: "mobile",
   },
+  /*
   {
     name: "finrend",
     image: finrendMobileImage,
@@ -409,6 +410,7 @@ export const selectedWorks = [
     generalLink: "/work/galaksi-organization",
     type: "web",
   },
+  */
 ];
 
 export const allWorks = [

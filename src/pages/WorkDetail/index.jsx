@@ -8,6 +8,7 @@ import { ReactComponent as PlayStore } from "../../assets/icons/playstore.svg";
 import { ReactComponent as Github } from "../../assets/icons/github.svg";
 import { ReactComponent as Web } from "../../assets/icons/web.svg";
 import { PhotoView } from "react-photo-view";
+import { Helmet } from "react-helmet";
 
 const WorkDetail = () => {
   const [work, setWork] = useState(null);
@@ -34,6 +35,9 @@ const WorkDetail = () => {
 
   return (
     <div className={styles.worksDetailContainer}>
+      <Helmet>
+        <title>{`Mertcan Köse | ${work?.title}`}</title>
+      </Helmet>
       <h2 className={styles.title}>{work?.title}</h2>
       <p className={styles.description}>{work?.description}</p>
       <div className="flex items-center gap-3">

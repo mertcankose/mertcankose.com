@@ -12,7 +12,9 @@ const OnlyLink = ({ href, children, ...props }) => {
 const LinkButton = ({ href, children, ...props }) => {
   return (
     <Link to={href}>
-      <a {...props}>{children}</a>
+      <a href={href} {...props}>
+        {children}
+      </a>
     </Link>
   );
 };
