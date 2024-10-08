@@ -1,21 +1,11 @@
-
-
 .heading {
-    @apply
-    text-3xl
-    font-bold
+  @apply text-3xl
+    font-bold;
 }
 
 .works {
-    @apply
-    mt-10 
+  @apply mt-10 
     grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2
     px-2 md:px-14 lg:px-20
-    gap-10
-}
-
-.workImage {
-   
-    /* w-1/2 */
-    /* rounded-none */
+    gap-10;
 }

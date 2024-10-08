@@ -1,6 +1,5 @@
 import styles from "./style.module.css";
 import Available from "../Available";
-import { Link } from "react-router-dom";
 
 const Bar = ({ className }) => {
   return (

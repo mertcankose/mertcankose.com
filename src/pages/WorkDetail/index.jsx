@@ -22,7 +22,6 @@ const WorkDetail = () => {
   }, []);
 
   const textPrettier = (text) => {
-    // extract with \n
     const paragraphs = text.split("\n");
     return paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>);
   };

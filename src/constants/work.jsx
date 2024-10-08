@@ -20,13 +20,13 @@ import dailyfrontendImage from "../assets/images/dailyfrontend/dailyfrontend.png
 import simongameImage from "../assets/images/simongame/simongame.png";
 import okkoImage from "../assets/images/okko/okko.png";
 import nodeapiImage from "../assets/images/nodeapi/nodeapi.png";
-import pouchMobileImage from "../assets/images/pouchmobile/pouchmobile.png";
+//import pouchMobileImage from "../assets/images/pouchmobile/pouchmobile.png";
 import navvigoMobileImage from "../assets/images/navvigomobile/navvigomobile.png";
 import navvigoWebImage from "../assets/images/navvigoweb/navvigoweb.png";
-import birF1TImage from "../assets/images/1f1t/1f1t.png";
+import birF1TImage from "../assets/images/1f1t/1f1t.webp";
 import tummiadImage from "../assets/images/tummiad/tummiad.png";
 
-import emptyPhoto from "../assets/images/empty.png";
+//import emptyPhoto from "../assets/images/empty.png";
 
 import eservisPhoto1 from "../assets/images/eservis/photo1.png";
 import eservisPhoto2 from "../assets/images/eservis/photo2.png";
@@ -68,10 +68,10 @@ import okkoPhoto1 from "../assets/images/okko/photo1.png";
 import okkoPhoto2 from "../assets/images/okko/photo2.png";
 import nodeapiPhoto1 from "../assets/images/nodeapi/photo1.png";
 import nodeapiPhoto2 from "../assets/images/nodeapi/photo2.png";
-import pouchMobilePhoto from "../assets/images/pouchmobile/photo1.png";
+//import pouchMobilePhoto from "../assets/images/pouchmobile/photo1.png";
 import navvigoMobilePhoto from "../assets/images/navvigomobile/photo1.png";
 import navvigoWebPhoto from "../assets/images/navvigoweb/photo1.png";
-import birF1TPhoto from "../assets/images/1f1t/photo1.png";
+import birF1TPhoto from "../assets/images/1f1t/photo1.webp";
 import tummiadPhoto from "../assets/images/tummiad/photo1.png";
 import sipsPhoto1 from "../assets/images/sips/photo1.jpeg";
 import sipsPhoto2 from "../assets/images/sips/photo2.jpeg";
