@@ -1,14 +1,14 @@
-import tubitakuzaylogo from "../../assets/images/career/tubitak-uzay.png";
-import freelancerLogo from "../../assets/images/career/mertcan.png";
-import jotformlogo from "../../assets/images/career/jotform.png";
-import openmoneylogo from "../../assets/images/career/openmoney.png";
-import gaislogo from "../../assets/images/career/gais.png";
-import vimlogo from "../../assets/images/career/vim.png";
+import tubitakuzaylogo from "../../assets/images/career/tubitak-uzay.webp";
+import freelancerLogo from "../../assets/images/career/mertcan.webp";
+import jotformlogo from "../../assets/images/career/jotform.webp";
+import openmoneylogo from "../../assets/images/career/openmoney.webp";
+import gaislogo from "../../assets/images/career/gais.webp";
+import vimlogo from "../../assets/images/career/vim.webp";
 import { Link } from "react-router-dom";
 import { ReactComponent as ArrowRight } from "../../assets/icons/arrow-right.svg";
 import styles from "./style.module.css";
-import valenturaLogo from "../../assets/images/career/valentura-logo.jpeg";
-import eservisLogo from "../../assets/images/career/eservis-logo.jpeg";
+import valenturaLogo from "../../assets/images/career/valentura-logo.webp";
+import eservisLogo from "../../assets/images/career/eservis-logo.webp";
 
 const CareerLine = ({ className }) => {
   return (
@@ -18,7 +18,12 @@ const CareerLine = ({ className }) => {
       <ol className="relative border-l border-gray-200">
         <li className="mb-10 ml-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-            <img src={valenturaLogo} alt="valentura" className="w-12 h-12" />
+            <img
+              src={valenturaLogo}
+              alt="valentura"
+              className="w-12 h-12"
+              loading="lazy"
+            />
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
             Valentura Technology & Investment{" "}
@@ -48,7 +53,12 @@ const CareerLine = ({ className }) => {
         </li>
         <li className="mb-10 ml-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-            <img src={freelancerLogo} alt="freelancer" className="w-12 h-12" />
+            <img
+              src={freelancerLogo}
+              alt="freelancer"
+              className="w-12 h-12"
+              loading="lazy"
+            />
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
             Freelancer{" "}
@@ -74,7 +84,12 @@ const CareerLine = ({ className }) => {
         </li>
         <li className="mb-10 ml-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-            <img src={eservisLogo} alt="e-servis" className="w-12 h-12" />
+            <img
+              src={eservisLogo}
+              alt="e-servis"
+              className="w-12 h-12"
+              loading="lazy"
+            />
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
             Vyrsos Technology{" "}
@@ -98,6 +113,7 @@ const CareerLine = ({ className }) => {
               src={tubitakuzaylogo}
               alt="tubitak-uzay"
               className="w-12 h-12"
+              loading="lazy"
             />
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
@@ -118,7 +134,12 @@ const CareerLine = ({ className }) => {
 
         <li className="mb-10 ml-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-            <img src={jotformlogo} alt="jotform" className="w-16 h-16" />
+            <img
+              src={jotformlogo}
+              alt="jotform"
+              className="w-16 h-16"
+              loading="lazy"
+            />
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900">Jotform</h3>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-600">
@@ -140,7 +161,12 @@ const CareerLine = ({ className }) => {
         </li>
         <li className="mb-10 ml-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-            <img src={openmoneylogo} alt="openmoney" className="w-16 h-16" />
+            <img
+              src={openmoneylogo}
+              alt="openmoney"
+              className="w-16 h-16"
+              loading="lazy"
+            />
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900">
             Open Money
@@ -161,7 +187,12 @@ const CareerLine = ({ className }) => {
 
         <li className="mb-10 ml-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-            <img src={gaislogo} alt="gais" className="w-16 h-16" />
+            <img
+              src={gaislogo}
+              alt="gais"
+              className="w-16 h-16"
+              loading="lazy"
+            />
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900">
             Gais Security
@@ -183,7 +214,7 @@ const CareerLine = ({ className }) => {
         </li>
         <li className="ml-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-            <img src={vimlogo} alt="vim" className="w-16 h-16" />
+            <img src={vimlogo} alt="vim" className="w-16 h-16" loading="lazy" />
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900">
             Vizyondan Misyona Girişimcilik Topluluğu

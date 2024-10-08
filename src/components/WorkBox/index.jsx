@@ -21,6 +21,7 @@ const WorkBox = ({ item, extra, className, imageClassName, ...props }) => {
             className={[styles.image, imageClassName].join(" ")}
             src={item?.image}
             alt="Project"
+            loading="lazy"
           />
           <h3 className={styles.title}>{item?.title}</h3>
           <p className={styles.description}>{item?.description}</p>

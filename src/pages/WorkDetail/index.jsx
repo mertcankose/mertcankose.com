@@ -83,6 +83,7 @@ const WorkDetail = () => {
                 src={photo}
                 alt={`Project screenshot ${index + 1}`}
                 width={500}
+                loading="lazy"
               />
             </PhotoView>
           ))}
