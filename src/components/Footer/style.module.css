@@ -1,7 +1,11 @@
 .footer {
   @apply flex flex-col
     items-center
-    gap-2;
+    gap-2 h-[120px];
+}
+.footer {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 120px;
 }
 
 .nav {

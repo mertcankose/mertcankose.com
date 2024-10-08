@@ -5,7 +5,7 @@ import "react-photo-view/dist/react-photo-view.css";
 
 const RootLayout = () => {
   return (
-    <main className="max-w-7xl mx-auto mb-8">
+    <main className="max-w-7xl mx-auto mb-8 flex flex-col">
       <Header className="h-24" />
       <PhotoProvider>
         <Outlet />
