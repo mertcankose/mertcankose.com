@@ -1,6 +1,5 @@
 .bar {
-    @apply
-    bg-gray-100
+  @apply bg-gray-100
     rounded-2xl
-    px-0.5
+    px-0.5 border h-[40px];
 }

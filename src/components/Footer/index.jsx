@@ -2,8 +2,19 @@ import { NavLink } from "react-router-dom";
 import styles from "./style.module.css";
 import { menu } from "../../constants/menu";
 import SocialBar from "../SocialBar";
+import { useEffect, useState } from "react";
 
 const Footer = ({ className }) => {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    setIsLoaded(true);
+  }, []);
+
+  if (!isLoaded) {
+    return null; // veya bir yükleme göstergesi
+  }
+
   return (
     <footer className={[styles.footer, className].join(" ")}>
       <nav className={styles.nav}>
