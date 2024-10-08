@@ -26,7 +26,7 @@ const Skills = ({ className }) => {
         </p>
       </div>
       <div className={styles.skillsArea}>
-        <h4 className={styles.skillsTitle}>Skills</h4>
+        <h3 className={styles.skillsTitle}>Skills</h3>
         <div className={styles.skillsTags}>
           {skills.map((skill) => (
             <Tag tag={skill.text} key={skill.id} />

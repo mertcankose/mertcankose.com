@@ -9,7 +9,7 @@ const Works = ({ items = [], className }) => {
       <h2 className={styles.heading}>Selected Works</h2>
       <WorksGrid items={items} />
       <Link to="/work">
-        <CustomButton text="See More" className="mt-10" />
+        <CustomButton text="All Works" className="mt-10" />
       </Link>
     </div>
   );

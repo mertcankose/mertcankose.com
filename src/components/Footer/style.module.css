@@ -1,24 +1,20 @@
 .footer {
-    @apply
-    flex flex-col
+  @apply flex flex-col
     items-center
-    gap-2
+    gap-2;
 }
 
 .nav {
-    @apply
-    flex gap-3
-    mb-3
+  @apply flex gap-3
+    mb-3;
 }
 
 .navItem {
-    @apply
-    text-gray-400
-    text-xl
+  @apply text-gray-600
+    text-xl;
 }
 
 .navItemActive {
-    @apply
-    text-gray-700
-    text-xl font-semibold
+  @apply text-gray-900
+    text-xl font-semibold;
 }

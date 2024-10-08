@@ -33,22 +33,46 @@ export const skills = [
   },
   {
     id: 9,
-    text: "Docker",
+    text: "NodeJS",
   },
   {
     id: 10,
-    text: "Web3",
+    text: "MongoDB",
   },
   {
     id: 11,
-    text: "Solidity",
+    text: "SQL",
   },
   {
     id: 12,
-    text: "Figma",
+    text: "Docker",
   },
   {
     id: 13,
+    text: "Web3",
+  },
+  {
+    id: 14,
+    text: "Solidity",
+  },
+  {
+    id: 15,
+    text: "Solana",
+  },
+  {
+    id: 16,
+    text: "Figma",
+  },
+  {
+    id: 17,
     text: "Wordpress",
+  },
+  {
+    id: 18,
+    text: "Java",
+  },
+  {
+    id: 19,
+    text: "Network",
   },
 ];

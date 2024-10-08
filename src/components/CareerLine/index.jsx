@@ -26,7 +26,7 @@ const CareerLine = ({ className }) => {
               Latest
             </span>
           </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-600">
             May 2022 - July 2024
           </time>
           <p className="text-blue-800 font-semibold text-base mb-3">
@@ -36,7 +36,7 @@ const CareerLine = ({ className }) => {
             During the time I worked in this company, I had the opportunity to
             develop projects in many areas. I learned fast and contributed
             significantly to the{" "}
-            <span className="font-bold text-green-500">profitability</span> of
+            <span className="font-bold text-green-800">profitability</span> of
             the company.
           </p>
           <Link
@@ -53,7 +53,7 @@ const CareerLine = ({ className }) => {
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
             Freelancer{" "}
           </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-600">
             March 2020 - Present
           </time>
           <p className="text-blue-800 font-semibold text-base mb-3">
@@ -79,7 +79,7 @@ const CareerLine = ({ className }) => {
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
             Vyrsos Technology{" "}
           </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-600">
             May 2023 - Dec 2023
           </time>
           <p className="text-blue-800 font-semibold text-base mb-3">
@@ -103,7 +103,7 @@ const CareerLine = ({ className }) => {
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
             Tübitak Uzay{" "}
           </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-600">
             July 2023 - Aug 2023
           </time>
           <p className="text-blue-800 font-semibold text-base mb-3">
@@ -121,7 +121,7 @@ const CareerLine = ({ className }) => {
             <img src={jotformlogo} alt="jotform" className="w-16 h-16" />
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900">Jotform</h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-600">
             June 2022 - July 2022
           </time>
           <p className="text-blue-800 font-semibold text-base mb-3">
@@ -145,7 +145,7 @@ const CareerLine = ({ className }) => {
           <h3 className="mb-1 text-lg font-semibold text-gray-900">
             Open Money
           </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-600">
             Jan 2022 - April 2022
           </time>
           <p className="text-blue-800 font-semibold text-base mb-3">
@@ -166,7 +166,7 @@ const CareerLine = ({ className }) => {
           <h3 className="mb-1 text-lg font-semibold text-gray-900">
             Gais Security
           </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-600">
             Nov 2020 - Jan 2021
           </time>
           <p className="text-blue-800 font-semibold text-base mb-3">
@@ -188,7 +188,7 @@ const CareerLine = ({ className }) => {
           <h3 className="mb-1 text-lg font-semibold text-gray-900">
             Vizyondan Misyona Girişimcilik Topluluğu
           </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-600">
             March 2019 - Sep 2020
           </time>
           <p className="text-blue-800 font-semibold text-base mb-3">
