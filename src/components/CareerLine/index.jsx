@@ -8,9 +8,27 @@ import { Link } from "react-router-dom";
 import { ReactComponent as ArrowRight } from "../../assets/icons/arrow-right.svg";
 import styles from "./style.module.css";
 import valenturaLogo from "../../assets/images/career/valentura-logo.webp";
+import { useEffect, useMemo, useState } from "react";
 
 const CareerLine = ({ className }) => {
-  const careerItems = [
+  const [isXlScreen, setIsXlScreen] = useState(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsXlScreen(window.innerWidth >= 1280); // xl breakpoint is 1280px in Tailwind
+    };
+
+    // Initial check
+    checkScreenSize();
+
+    // Add listener
+    window.addEventListener("resize", checkScreenSize);
+
+    // Cleanup
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
+
+  const baseCareerItems = [
     {
       logo: freelancerLogo,
       title: "mertcankose.com",
@@ -24,7 +42,6 @@ const CareerLine = ({ className }) => {
             I've successfully executed and delivered diverse projects independently, leveraging my expertise across
             different technologies and domains.
           </span>{" "}
-          My comprehensive portfolio of work, showcasing these successful implementations, can be found on my website.
         </>
       ),
       isLatest: true,
@@ -118,6 +135,26 @@ const CareerLine = ({ className }) => {
       ),
     },
   ];
+
+  // Reorder items based on screen size
+  const careerItems = useMemo(() => {
+    if (isXlScreen) {
+      return baseCareerItems;
+    } else {
+      // Find indices of Gais and Jotform
+      const gaisIndex = baseCareerItems.findIndex((item) => item.title.includes("Gais"));
+      const jotformIndex = baseCareerItems.findIndex((item) => item.title.includes("Jotform"));
+
+      // Create a new array with swapped positions
+      const reorderedItems = [...baseCareerItems];
+      [reorderedItems[gaisIndex], reorderedItems[jotformIndex]] = [
+        reorderedItems[jotformIndex],
+        reorderedItems[gaisIndex],
+      ];
+
+      return reorderedItems;
+    }
+  }, [isXlScreen]);
 
   // Group items into rows of 3
   const rows = careerItems.reduce((acc, item, index) => {

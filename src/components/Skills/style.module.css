@@ -1,15 +1,15 @@
 .skills {
-  @apply w-full px-8 2xl:px-2;
+  @apply w-full px-4 2xl:px-2;
 }
 
 .skillsArea {
-  @apply w-full bg-gray-50 rounded-xl py-8 px-6 flex flex-col items-start shadow-sm;
+  @apply w-full bg-gray-50/50 rounded-lg py-6 px-4 flex flex-col items-start shadow-sm;
 }
 
 .skillsTitle {
-  @apply text-2xl font-semibold mb-3;
+  @apply text-lg font-medium mb-2;
 }
 
 .skillsTags {
-  @apply flex flex-wrap gap-4 mt-6 mb-8;
+  @apply flex flex-wrap gap-2 mt-4 mb-6;
 }

@@ -1,5 +1,5 @@
 .container {
-  @apply w-full px-5 mt-24 scroll-mt-8;
+  @apply w-full px-8 md:px-12 lg:px-16 mt-24 scroll-mt-8;
 }
 
 .heading {
@@ -11,7 +11,7 @@
 }
 
 .categoryButton {
-  @apply px-6 py-3 border border-gray-200 rounded-lg text-base font-medium cursor-pointer transition-all duration-200 ease-in-out bg-transparent hover:bg-gray-50;
+  @apply px-4 py-2 border border-gray-200 rounded-lg text-base font-medium cursor-pointer transition-all duration-200 ease-in-out bg-transparent hover:bg-gray-50;
 }
 
 .categoryButton.active {
