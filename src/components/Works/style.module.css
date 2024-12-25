@@ -1,9 +1,9 @@
 .container {
-  @apply w-full px-5 mt-24;
+  @apply w-full px-5 mt-24 scroll-mt-8;
 }
 
 .heading {
-  @apply text-3xl font-semibold mb-10 text-center;
+  @apply text-3xl font-semibold mb-6 text-center;
 }
 
 .categories {

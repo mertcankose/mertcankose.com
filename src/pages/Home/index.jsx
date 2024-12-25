@@ -11,17 +11,14 @@ const Home = () => {
     <Fragment>
       <Helmet>
         <title>Mertcan Köse | Mobile, Web and Blockchain Developer</title>
-        <meta
-          name="description"
-          content="Mertcan Köse - Mobile, Web and Blockchain Developer"
-        />
+        <meta name="description" content="Mertcan Köse - Mobile, Web and Blockchain Developer" />
       </Helmet>
 
       <Main className={styles.mainSection} />
       <CareerLine items={allCareers} className="mb-12" />
+      <Skills className={styles.skillsSection} />
       <Works items={selectedWorks} className="mt-24" />
 
-      <Skills className={styles.skillsSection} />
       <LetsTalk />
     </Fragment>
   );

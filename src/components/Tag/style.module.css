@@ -1,5 +1,5 @@
 .tag {
-  @apply px-5 py-3 bg-gray-100 rounded-lg flex items-center justify-between gap-3 hover:bg-gray-200 transition-colors duration-200 relative;
+  @apply px-3 py-2 bg-gray-100 rounded-lg flex items-center justify-between gap-3 hover:bg-gray-200 transition-colors duration-200 relative;
 }
 
 .tagContent {

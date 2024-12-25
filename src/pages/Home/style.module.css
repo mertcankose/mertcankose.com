@@ -1,12 +1,9 @@
 .mainSection {
-    @apply
-    md:h-main
+  @apply md:h-main
     mt-8 md:mt-0
-    mb-16 md:mb-0
+    mb-16 md:mb-0;
 }
 
 .skillsSection {
-    @apply
-    mt-12 md:mt-32
-    mb-16 md:mb-40
+  @apply mt-6 md:mt-16;
 }

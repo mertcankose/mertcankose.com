@@ -1,8 +1,8 @@
 .container {
   @apply flex flex-col
     items-center
-    px-8 md:px-0
-    md:w-2/3 w-full
+    px-8 xl:px-0
+    w-full
     mx-auto
     scroll-mt-4;
 }
@@ -10,5 +10,110 @@
 .heading {
   @apply text-4xl font-bold
     text-center
-    mb-10;
+    mb-16;
+}
+
+.timeline {
+  @apply flex flex-col w-full gap-20 relative max-w-[1400px] mx-auto;
+}
+
+.timelineRow {
+  @apply flex flex-col xl:flex-row w-full gap-16 relative items-center xl:items-stretch xl:justify-between;
+}
+
+/* Son satır için özel stil */
+.timelineRow:last-child {
+  @apply xl:justify-start xl:pl-0;
+}
+
+.timelineContent {
+  @apply relative bg-white p-8 rounded-xl shadow-lg border-2 border-gray-100
+    flex-1 basis-0
+    flex flex-col
+    transition-all duration-300
+    hover:shadow-2xl hover:scale-105 hover:border-blue-200
+    w-full xl:w-auto;
+  height: auto;
+  min-height: 450px;
+  max-width: 500px;
+  min-width: unset;
+}
+
+@media (min-width: 1280px) {
+  .timelineContent {
+    height: 450px;
+    max-width: 380px;
+    min-width: 380px;
+  }
+}
+
+/* Hexagon shape for company logos */
+.logoWrapper {
+  @apply absolute -top-10 left-1/2 -translate-x-1/2
+    w-20 h-20
+    bg-white
+    shadow-lg
+    flex items-center justify-center
+    z-20;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.timelineImage {
+  @apply w-16 h-16 p-2;
+}
+
+.timelineTitle {
+  @apply flex items-start mt-10 mb-1 text-lg font-bold text-gray-900 justify-start text-left;
+}
+
+.timelineDate {
+  @apply block mb-2 text-sm font-medium text-blue-600 text-left;
+}
+
+.timelineRole {
+  @apply text-blue-800 font-semibold text-base mb-3 text-left;
+}
+
+.timelineDescription {
+  @apply text-base font-normal text-gray-600 flex-grow text-left;
+  min-height: 200px;
+}
+
+/* Connection lines - Bunlara dokunmuyoruz */
+.connectionLine {
+  @apply hidden xl:block absolute h-0.5 bg-gradient-to-r from-blue-200 to-blue-400
+    right-[-8rem] top-1/2 -translate-y-1/2 w-[8rem];
+}
+
+.leftConnection {
+  @apply right-auto left-[-8rem];
+}
+
+.verticalConnection {
+  @apply hidden xl:block absolute w-0.5 bg-gradient-to-b from-blue-200 to-blue-400
+    left-1/2 -translate-x-1/2 top-[100%] h-[4rem];
+}
+
+.verticalConnectionUp {
+  @apply hidden xl:block absolute w-0.5 bg-gradient-to-t from-blue-200 to-blue-400
+    left-1/2 -translate-x-1/2 bottom-[100%] h-[4rem];
+}
+
+/* Latest badge */
+.latestBadge {
+  @apply absolute -top-3 -right-3 
+    bg-gradient-to-r from-blue-500 to-blue-600
+    text-white text-sm font-bold
+    px-3 py-1.5 rounded-lg
+    shadow-md;
+}
+
+/* Link styles */
+.link {
+  @apply inline-flex items-center px-4 py-2 mt-4
+    text-sm font-medium text-white
+    bg-gradient-to-r from-blue-500 to-blue-600
+    rounded-lg hover:from-blue-600 hover:to-blue-700
+    transition-all duration-300
+    self-start;
 }
