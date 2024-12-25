@@ -1,13 +1,19 @@
 .container {
-    @apply
-    flex flex-col
-    items-center
-    px-4 2xl:px-0
-    scroll-mt-4
+  @apply w-full px-5 mt-24;
 }
+
 .heading {
-    @apply
-    text-3xl
-    font-bold
-    text-center
+  @apply text-3xl font-semibold mb-10 text-center;
+}
+
+.categories {
+  @apply flex gap-4 mb-10 justify-center flex-wrap;
+}
+
+.categoryButton {
+  @apply px-6 py-3 border border-gray-200 rounded-lg text-base font-medium cursor-pointer transition-all duration-200 ease-in-out bg-transparent hover:bg-gray-50;
+}
+
+.categoryButton.active {
+  @apply bg-black text-white border-black;
 }

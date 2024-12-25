@@ -95,12 +95,12 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/sips",
     type: "mobile",
+    type2: "",
   },
   {
     image: develadWebImage,
     title: "Develad",
-    description:
-      "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
+    description: "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
     tags: ["React", "Blockchain"],
     playStore: "",
     appStore: "",
@@ -108,6 +108,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/develad",
     type: "web",
+    type2: "blockchain",
   },
   /*
   {
@@ -136,6 +137,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/navvigo-mobile",
     type: "mobile",
+    type2: "blockchain",
   },
   {
     image: funlordMobileImage,
@@ -149,6 +151,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/funlord-mobile",
     type: "mobile",
+    type2: "",
   },
   {
     image: okkoImage,
@@ -162,6 +165,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/okko",
     type: "web",
+    type2: "",
   },
   {
     image: aybumobileImage,
@@ -169,16 +173,15 @@ export const selectedWorks = [
     description:
       "The application that contains the food menu, socialization section and announcements for our university.",
     tags: ["React Native", "Reanimated"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
-    appStore:
-      "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
+    playStore: "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
+    appStore: "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
     webLink: "https://aybumobile.com",
     githubLink: "https://github.com/thesammet/aybumobile",
     generalLink: "/work/aybu-mobile",
     type: "mobile",
+    type2: "",
   },
-  /*
+
   {
     name: "finrend",
     image: finrendMobileImage,
@@ -187,12 +190,12 @@ export const selectedWorks = [
       "Finrend is a financial application taht followed signals from the stock market and gave recommendations to users.",
     tags: ["React Native"],
     playStore: "https://play.google.com/store/apps/details?id=com.finrend",
-    appStore:
-      "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
+    appStore: "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
     webLink: "http://finrend.com/",
     githubLink: "",
     generalLink: "/work/finrend",
     type: "mobile",
+    type2: "",
   },
   {
     image: omAppImage,
@@ -206,6 +209,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/omapp",
     type: "mobile",
+    type2: "blockchain",
   },
   {
     name: "navvigoweb",
@@ -219,13 +223,13 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/navvigo-web",
     type: "web",
+    type2: "",
   },
   {
     name: "tummiad",
     image: tummiadImage,
     title: "Tümmiad",
-    description:
-      "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
+    description: "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -233,6 +237,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/tummiad",
     type: "web",
+    type2: "",
   },
   {
     name: "1f1t",
@@ -246,6 +251,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/1f1t",
     type: "web",
+    type2: "",
   },
   {
     name: "open-vote",
@@ -254,13 +260,13 @@ export const selectedWorks = [
     description:
       "I have developed a mobile application of a blockchain-based service with react native for the company I work for. I have used web3 libraries such as Wallet Connect.",
     tags: ["React Native", "Web3", "Blockchain"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
+    playStore: "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
     appStore: "https://apps.apple.com/gb/app/open-vote/id1601587507",
     webLink: "",
     githubLink: "",
     generalLink: "/work/open-vote",
     type: "mobile",
+    type2: "blockchain",
   },
   {
     name: "playland",
@@ -269,13 +275,13 @@ export const selectedWorks = [
     description:
       "Playland is a project that I am involved in as a freelancer. QR Supported payment system (iyzico) for a company that already has entertainment stores in most provinces of Turkey, is a multi-featured mobile application where parents can follow their children in the game.",
     tags: ["React Native", "Iyzico Payment"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
+    playStore: "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
     appStore: "https://apps.apple.com/tr/app/playland-mobil/id1631854531",
     webLink: "",
     githubLink: "",
     generalLink: "/work/playland",
     type: "mobile",
+    type2: "",
   },
   {
     image: qrScanImage,
@@ -289,6 +295,7 @@ export const selectedWorks = [
     githubLink: "https://github.com/mertcankose/qrscan",
     generalLink: "/work/qr-scan",
     type: "mobile",
+    type2: "",
   },
 
   {
@@ -297,13 +304,13 @@ export const selectedWorks = [
     description:
       "A platform where parents can monitor their children on the school bus along the way, and school management and service companies can easily control and manage the bus.",
     tags: ["React", "Vite", "TailwindCSS", "Google Map"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
+    playStore: "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
     appStore: "https://apps.apple.com/tr/app/eservis/id6463719378",
     webLink: "https://panel.eservis.app/",
     githubLink: "",
     generalLink: "/work/e-servis",
     type: "web",
+    type2: "",
   },
   {
     image: funlordWebImage,
@@ -317,6 +324,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/funlord-admin",
     type: "web",
+    type2: "",
   },
   {
     image: nodeapiImage,
@@ -329,7 +337,8 @@ export const selectedWorks = [
     webLink: "",
     githubLink: "https://github.com/mertcankose/node-application",
     generalLink: "/work/node-api",
-    type: "web",
+    type: "backend",
+    type2: "",
   },
   {
     name: "useco",
@@ -343,6 +352,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/useco",
     type: "web",
+    type2: "",
   },
   {
     name: "plndverse",
@@ -356,6 +366,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/plndverse",
     type: "web",
+    type2: "",
   },
   {
     name: "e-course",
@@ -369,6 +380,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/e-course",
     type: "web",
+    type2: "",
   },
   {
     name: "filminn",
@@ -382,6 +394,7 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/filminn",
     type: "web",
+    type2: "",
   },
   {
     name: "direct-academy",
@@ -395,13 +408,13 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/direct-academy",
     type: "web",
+    type2: "",
   },
   {
     name: "galaksi-organization",
     image: galaksiOrganizationImage,
     title: "Galaksi Organization",
-    description:
-      "An organization website that presents the organization tools.",
+    description: "An organization website that presents the organization tools.",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -409,8 +422,8 @@ export const selectedWorks = [
     githubLink: "",
     generalLink: "/work/galaksi-organization",
     type: "web",
+    type2: "",
   },
-  */
 ];
 
 export const allWorks = [
@@ -434,13 +447,13 @@ export const allWorks = [
     photo7: sipsPhoto7,
     text: "",
     type: "mobile",
+    type2: "",
   },
   {
     name: "develad",
     image: develadWebImage,
     title: "Develad",
-    description:
-      "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
+    description: "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
     tags: ["React", "Blockchain", "Solidity", "Web3"],
     playStore: "",
     appStore: "",
@@ -451,6 +464,7 @@ export const allWorks = [
     photo2: develadPhoto2,
     text: "",
     type: "web",
+    type2: "blockchain",
   },
   /*
   {
@@ -487,6 +501,7 @@ export const allWorks = [
     photo2: navvigoMobilePhoto,
     text: "",
     type: "mobile",
+    type2: "blockchain",
   },
 
   {
@@ -505,6 +520,7 @@ export const allWorks = [
     photo2: funlordMobilePhoto2,
     text: "",
     type: "mobile",
+    type2: "",
   },
   {
     name: "aybu-mobile",
@@ -513,10 +529,8 @@ export const allWorks = [
     description:
       "The mobile application we developed for our university. The application consists of a weekly menu, monthly food trends, access to school announcements and Aybü Social, the most exciting part of the application. Thus, it makes it easier for students to acquire knowledge and socialize.",
     tags: ["React Native", "Reanimated"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
-    appStore:
-      "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
+    playStore: "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
+    appStore: "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
     webLink: "https://aybumobile.com",
     githubLink: "https://github.com/thesammet/aybumobile",
     generalLink: "/work/aybu-mobile",
@@ -524,6 +538,7 @@ export const allWorks = [
     photo2: aybuMobilePhoto2,
     text: "",
     type: "mobile",
+    type2: "",
   },
   {
     name: "finrend",
@@ -533,8 +548,7 @@ export const allWorks = [
       "Finrend is a financial application taht followed signals from the stock market and gave recommendations to users.",
     tags: ["React Native"],
     playStore: "https://play.google.com/store/apps/details?id=com.finrend",
-    appStore:
-      "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
+    appStore: "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
     webLink: "http://finrend.com/",
     githubLink: "",
     generalLink: "/work/finrend",
@@ -542,6 +556,7 @@ export const allWorks = [
     photo2: finrendPhoto2,
     text: "",
     type: "mobile",
+    type2: "",
   },
   {
     name: "omapp",
@@ -559,6 +574,7 @@ export const allWorks = [
     photo2: omAppPhoto2,
     text: "",
     type: "mobile",
+    type2: "",
   },
   {
     name: "navvigo-web",
@@ -575,13 +591,13 @@ export const allWorks = [
     photo2: navvigoWebPhoto,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "tummiad",
     image: tummiadImage,
     title: "Tümmiad",
-    description:
-      "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
+    description: "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -592,6 +608,7 @@ export const allWorks = [
     photo2: tummiadPhoto,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "1f1t",
@@ -608,6 +625,7 @@ export const allWorks = [
     photo2: birF1TPhoto,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "open-vote",
@@ -616,8 +634,7 @@ export const allWorks = [
     description:
       "I have developed a mobile application of a blockchain-based service with react native for the company I work for. I have used web3 libraries such as Wallet Connect.",
     tags: ["React Native", "Web3", "Blockchain"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
+    playStore: "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
     appStore: "https://apps.apple.com/gb/app/open-vote/id1601587507",
     webLink: "",
     githubLink: "",
@@ -626,6 +643,7 @@ export const allWorks = [
     photo2: openvotePhoto2,
     text: "",
     type: "mobile",
+    type2: "blockchain",
   },
   {
     name: "playland",
@@ -634,8 +652,7 @@ export const allWorks = [
     description:
       "Playland is a project that I am involved in as a freelancer. QR Supported payment system (iyzico) for a company that already has entertainment stores in most provinces of Turkey, is a multi-featured mobile application where parents can follow their children in the game.",
     tags: ["React Native", "Iyzico Payment"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
+    playStore: "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
     appStore: "https://apps.apple.com/tr/app/playland-mobil/id1631854531",
     webLink: "plndverse.com",
     githubLink: "",
@@ -644,6 +661,7 @@ export const allWorks = [
     photo2: playlandPhoto2,
     text: "",
     type: "mobile",
+    type2: "",
   },
   {
     name: "qr-scan",
@@ -661,6 +679,7 @@ export const allWorks = [
     photo2: qrScanPhoto2,
     text: "",
     type: "mobile",
+    type2: "",
   },
   {
     name: "okko",
@@ -678,6 +697,7 @@ export const allWorks = [
     photo2: okkoPhoto2,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "e-servis",
@@ -686,8 +706,7 @@ export const allWorks = [
     description:
       "A platform where parents can monitor their children on the school bus along the way, and school management and service companies can easily control and manage the bus.",
     tags: ["React", "Vite", "TailwindCSS", "Google Map"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
+    playStore: "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
     appStore: "https://apps.apple.com/tr/app/eservis/id6463719378",
     webLink: "https://panel.eservis.app/",
     githubLink: "",
@@ -696,6 +715,7 @@ export const allWorks = [
     photo2: eservisPhoto2,
     text: "Sample Login\nphone: +905359161408\npassword: 1230,aaa",
     type: "web",
+    type2: "",
   },
   {
     name: "funlord-admin",
@@ -714,6 +734,7 @@ export const allWorks = [
     photo2: funlordAdminPhoto2,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "node-api",
@@ -730,7 +751,8 @@ export const allWorks = [
     photo1: nodeapiPhoto1,
     photo2: nodeapiPhoto2,
     text: "",
-    type: "web",
+    type: "backend",
+    type2: "",
   },
   {
     name: "useco",
@@ -747,6 +769,7 @@ export const allWorks = [
     photo2: usecoPhoto2,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "plndverse",
@@ -763,6 +786,7 @@ export const allWorks = [
     photo2: plndversePhoto2,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "e-course",
@@ -779,6 +803,7 @@ export const allWorks = [
     photo2: ecoursePhoto2,
     text: "Sample Login\nemail: mertcankose97@outlook.com\npassword: 123456789",
     type: "web",
+    type2: "",
   },
   {
     name: "filminn",
@@ -795,6 +820,7 @@ export const allWorks = [
     photo2: filminnPhoto2,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "direct-academy",
@@ -811,13 +837,13 @@ export const allWorks = [
     photo2: directacademyPhoto2,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "galaksi-organization",
     image: galaksiOrganizationImage,
     title: "Galaksi Organization",
-    description:
-      "An organization website that presents the organization tools.",
+    description: "An organization website that presents the organization tools.",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -828,13 +854,13 @@ export const allWorks = [
     photo2: galaksiorganizasyonPhoto2,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "monster-hunt",
     image: monsterhuntImage,
     title: "Monster Hunt",
-    description:
-      "A little game that I developed with Vue.js. This is the first app on Vue.js.",
+    description: "A little game that I developed with Vue.js. This is the first app on Vue.js.",
     tags: ["JavaScript", "Vue"],
     playStore: "",
     appStore: "",
@@ -845,13 +871,13 @@ export const allWorks = [
     photo2: monsterhuntPhoto2,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "daily-frontend",
     image: dailyfrontendImage,
     title: "Daily Frontend",
-    description:
-      "The Project that I am coding the designs I like. I have used a lot of Scss.",
+    description: "The Project that I am coding the designs I like. I have used a lot of Scss.",
     tags: ["Css", "Scss", "Gulp.js"],
     playStore: "",
     appStore: "",
@@ -862,6 +888,7 @@ export const allWorks = [
     photo2: dailyfrontendPhoto2,
     text: "",
     type: "web",
+    type2: "",
   },
   {
     name: "simon-game",
@@ -879,5 +906,6 @@ export const allWorks = [
     photo2: simongamePhoto2,
     text: "",
     type: "web",
+    type2: "",
   },
 ];

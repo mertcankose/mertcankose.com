@@ -17,12 +17,7 @@ const WorkBox = ({ item, extra, className, imageClassName, ...props }) => {
     >
       <div className="flex flex-col h-full">
         <div className="flex flex-col items-start justify-start">
-          <img
-            className={[styles.image, imageClassName].join(" ")}
-            src={item?.image}
-            alt="Project"
-            loading="lazy"
-          />
+          <img className={[styles.image, imageClassName].join(" ")} src={item?.image} alt="Project" loading="lazy" />
           <h3 className={styles.title}>{item?.title}</h3>
           <p className={styles.description}>{item?.description}</p>
         </div>
@@ -30,23 +25,15 @@ const WorkBox = ({ item, extra, className, imageClassName, ...props }) => {
         <div className="flex items-center justify-between">
           <div className="flex flex-wrap items-end gap-2 h-full">
             {item.tags.map((tag) => (
-              <Tag tag={tag} />
+              <Tag tag={tag} className="py-1.5 px-3" />
             ))}
             {extra}
           </div>
 
-          {item?.type === "mobile" ? (
-            <Mobile width="18" height="18" />
-          ) : (
-            <Web width="18" height="18" />
-          )}
+          {item?.type === "mobile" ? <Mobile width="18" height="18" /> : <Web width="18" height="18" />}
         </div>
 
-        <ExternalLink
-          width="18"
-          height="18"
-          className="absolute top-5 right-5"
-        />
+        <ExternalLink width="18" height="18" className="absolute top-5 right-5" />
       </div>
     </Link>
   );

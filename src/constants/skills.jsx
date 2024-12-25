@@ -1,78 +1,52 @@
 export const skills = [
   {
     id: 1,
-    text: "HTML",
+    text: "React Native | Expo",
+    active: true,
   },
   {
     id: 2,
-    text: "CSS",
+    text: "React | Vite | Next.js",
+    active: true,
   },
   {
     id: 3,
-    text: "JavaScript",
+    text: "JavaScript | TypeScript",
+    active: true,
   },
   {
     id: 4,
-    text: "TypeScript",
+    text: "CSS | SCSS | Tailwind CSS | shadcn/ui",
+    active: true,
   },
   {
     id: 5,
-    text: "React",
+    text: "NodeJS | Express",
+    active: false,
   },
   {
     id: 6,
-    text: "Next.js",
+    text: "MongoDB | SQL | NoSQL",
+    active: false,
   },
   {
     id: 7,
-    text: "Tailwind CSS",
+    text: "Docker",
+    active: false,
   },
   {
     id: 8,
-    text: "Vue",
+    text: "Web3 | Solidity | EVM | Solana | Rust",
+    active: true,
   },
   {
     id: 9,
-    text: "NodeJS",
+    text: "Figma",
+    active: false,
   },
   {
     id: 10,
-    text: "MongoDB",
-  },
-  {
-    id: 11,
-    text: "SQL",
-  },
-  {
-    id: 12,
-    text: "Docker",
-  },
-  {
-    id: 13,
-    text: "Web3",
-  },
-  {
-    id: 14,
-    text: "Solidity",
-  },
-  {
-    id: 15,
-    text: "Solana",
-  },
-  {
-    id: 16,
-    text: "Figma",
-  },
-  {
-    id: 17,
-    text: "Wordpress",
-  },
-  {
-    id: 18,
-    text: "Java",
-  },
-  {
-    id: 19,
-    text: "Network",
+    text: "Wordpress | MYSQL",
+    active: false,
   },
 ];

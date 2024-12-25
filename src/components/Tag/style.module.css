@@ -1,6 +1,48 @@
 .tag {
-    @apply
-    px-4 py-1
-    bg-gray-200
-    rounded-lg
+  @apply px-5 py-3 bg-gray-100 rounded-lg flex items-center justify-between gap-3 hover:bg-gray-200 transition-colors duration-200 relative;
+}
+
+.tagContent {
+  @apply flex items-center flex-wrap gap-2;
+}
+
+.skill {
+  @apply text-gray-700 font-medium text-base;
+}
+
+.separator {
+  @apply text-gray-400 mx-1.5;
+}
+
+.activeIndicator {
+  @apply relative flex items-center;
+}
+
+.fireEmoji {
+  @apply text-base cursor-help p-1.5 bg-transparent border-none outline-none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.fireEmoji:focus {
+  @apply outline-none;
+}
+
+.tooltip {
+  @apply absolute invisible opacity-0 bg-black text-white text-sm py-1.5 px-3 rounded-md whitespace-nowrap
+    -top-10 left-1/2 transform -translate-x-1/2 transition-all duration-200 pointer-events-none z-10;
+}
+
+/* Show tooltip on both hover and focus */
+.fireEmoji:hover .tooltip,
+.fireEmoji:focus .tooltip {
+  @apply visible opacity-100;
+}
+
+/* Add a small arrow to the tooltip */
+.tooltip:after {
+  content: "";
+  @apply absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-full;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }

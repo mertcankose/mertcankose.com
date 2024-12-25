@@ -13,39 +13,21 @@ const Main = ({ className }) => {
 
   return (
     <section className={[styles.main, className].join(" ")}>
-      <AnimatedText text="Hi, I’m Mertcan Köse." />
-      <AnimatedText
-        text="I craft mobile, web, and blockchain applications."
-        className="mt-2"
-      />
+      <AnimatedText text="Hi, I’m Mertcan." />
+      <AnimatedText text="I craft digital products and experiences." className="mt-2" />
 
       <p className={styles.description}>
-        With a passion for innovative technologies, I transform complex ideas
-        into user-friendly solutions, focusing on clean code and seamless user
-        experiences.
+        I transform complex ideas into user-friendly solutions across web, mobile, and blockchain, emphasizing clean
+        code and seamless experiences.
       </p>
       <SocialBar />
 
       <div className="flex items-center gap-4 mt-8">
-        <CustomButton
-          onClick={() => copyEmail()}
-          text="Copy Email"
-          className="w-32"
-        />
-        <CustomButton
-          type="external"
-          href="/MertcanKose_Resume.pdf"
-          text="View CV"
-          className="w-32"
-        />
+        <CustomButton onClick={() => copyEmail()} text="Copy Email" className="w-32" />
+        <CustomButton type="external" href="/MertcanKose_Resume.pdf" text="View CV" className="w-32" />
       </div>
 
-      <a
-        href="#career"
-        className="mt-10"
-        aria-label={`Scroll to career section`}
-        title={`Scroll to career section`}
-      >
+      <a href="#career" className="mt-10" aria-label={`Scroll to career section`} title={`Scroll to career section`}>
         <ArrowDown width="30" height="30" />
       </a>
     </section>
