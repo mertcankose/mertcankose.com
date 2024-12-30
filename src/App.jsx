@@ -6,7 +6,9 @@ import { Toaster } from "react-hot-toast";
 import { StoreProvider } from "./context/store";
 import { LoadingSpinner } from "./components/";
 import { analytics } from "./firebase";
-import { logEvent } from "firebase/analytics";
+
+// FIREBASE
+analytics;
 
 // Lazy imports
 const Home = lazy(() => import("./pages/Home"));

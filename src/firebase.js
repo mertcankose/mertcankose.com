@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { getAnalytics, logEvent } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
@@ -11,10 +11,7 @@ const firebaseConfig = {
   measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
-// Firebase'i başlat
 const app = initializeApp(firebaseConfig);
-
-// Analytics'i başlat
 const analytics = getAnalytics(app);
 
-export { analytics };
+export { analytics, logEvent };
