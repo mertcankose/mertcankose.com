@@ -1,15 +1,12 @@
 import { lazy, Suspense } from "react";
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
 import PrivateRoutes from "./utils/private-route";
 import { Toaster } from "react-hot-toast";
 import { StoreProvider } from "./context/store";
 import { LoadingSpinner } from "./components/";
+import { analytics } from "./firebase";
+import { logEvent } from "firebase/analytics";
 
 // Lazy imports
 const Home = lazy(() => import("./pages/Home"));
