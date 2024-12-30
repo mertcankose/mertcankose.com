@@ -5,10 +5,6 @@ import PrivateRoutes from "./utils/private-route";
 import { Toaster } from "react-hot-toast";
 import { StoreProvider } from "./context/store";
 import { LoadingSpinner } from "./components/";
-import { analytics } from "./firebase";
-
-// FIREBASE
-analytics;
 
 // Lazy imports
 const Home = lazy(() => import("./pages/Home"));
