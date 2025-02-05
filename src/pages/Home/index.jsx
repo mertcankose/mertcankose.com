@@ -15,9 +15,10 @@ const Home = () => {
       </Helmet>
 
       <Main className={styles.mainSection} />
-      <CareerLine items={allCareers} className="mb-12" />
+      <Works items={selectedWorks} className="" />
+      <CareerLine items={allCareers} className="mt-24" />
       <Skills className={styles.skillsSection} />
-      <Works items={selectedWorks} className="mt-24" />
+   
 
       <LetsTalk />
     </Fragment>

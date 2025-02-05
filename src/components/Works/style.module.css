@@ -1,5 +1,5 @@
 .container {
-  @apply w-full px-8 md:px-12 lg:px-16 mt-24 scroll-mt-8;
+  @apply w-full px-8 md:px-12 lg:px-16 scroll-mt-8;
 }
 
 .heading {

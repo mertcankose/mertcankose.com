@@ -48,11 +48,12 @@ const Works = ({ items = [], className }) => {
         </button>
       </div>
       <WorksGrid items={filteredItems} />
-      {/*
-      <Link to="/work">
-        <CustomButton text="All Works" className="mt-10" />
+      
+      
+      <Link to="/work" className="">
+        <CustomButton text="All Works" className="mt-10 mx-auto" />
       </Link>
-      */}
+      
     </div>
   );
 };

@@ -44,7 +44,7 @@ const Main = ({ className }) => {
         />
       </div>
 
-      <a href="#career" className="mt-10" aria-label={`Scroll to career section`} title={`Scroll to career section`}>
+      <a href="#works" className="mt-10" aria-label={`Scroll to career section`} title={`Scroll to career section`}>
         <ArrowDown width="30" height="30" />
       </a>
     </section>

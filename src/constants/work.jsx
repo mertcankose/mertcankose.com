@@ -83,7 +83,89 @@ import sipsPhoto7 from "../assets/images/sips/photo7.webp";
 import develadPhoto1 from "../assets/images/develad/photo1.webp";
 import develadPhoto2 from "../assets/images/develad/photo2.webp";
 
+import storifyImage from "../assets/images/storify/storify.webp";
+import storifyPhoto1 from "../assets/images/storify/photo1.webp";
+import storifyPhoto2 from "../assets/images/storify/photo2.webp";
+import storifyPhoto3 from "../assets/images/storify/photo3.webp";
+
+import flowaiImage from "../assets/images/flowai/flowai.webp";
+import flowaiPhoto1 from "../assets/images/flowai/photo1.webp";
+import flowaiPhoto2 from "../assets/images/flowai/photo2.webp";
+import flowaiPhoto3 from "../assets/images/flowai/photo3.webp";
+
+import finrendstakeImage from "../assets/images/finrendstake/finrendstake.webp";
+import finrendstakePhoto1 from "../assets/images/finrendstake/photo1.webp";
+import finrendstakePhoto2 from "../assets/images/finrendstake/photo2.webp";
+
+import cakirlojistikImage from "../assets/images/cakirlojistik/cakirlojistik.webp";
+import cakirlojistikPhoto1 from "../assets/images/cakirlojistik/photo1.webp";
+import cakirlojistikPhoto2 from "../assets/images/cakirlojistik/photo2.webp";
+import cakirlojistikPhoto3 from "../assets/images/cakirlojistik/photo3.webp";
+import cakirlojistikPhoto4 from "../assets/images/cakirlojistik/photo4.webp";
+import cakirlojistikPhoto5 from "../assets/images/cakirlojistik/photo5.webp";
+import cakirlojistikPhoto6 from "../assets/images/cakirlojistik/photo6.webp";
+import cakirlojistikPhoto7 from "../assets/images/cakirlojistik/photo7.webp";
+import cakirlojistikPhoto8 from "../assets/images/cakirlojistik/photo8.webp";
+import cakirlojistikPhoto9 from "../assets/images/cakirlojistik/photo9.webp";
+
 export const selectedWorks = [
+  {
+    image: flowaiImage,
+    title: "FlowAI",
+    description:
+      "Transform your ideas into professionally crafted rap songs using AI technology.",
+    tags: ["React Native", "NodeJS", "Express", "MongoDB", "Music API"],
+    playStore: "",
+    appStore:
+      "https://apps.apple.com/us/app/ai-rap-music-generator-flow-ai/id6740488650",
+    webLink: "https://flowai-web.vercel.app/",
+    githubLink: "",
+    generalLink: "/work/flowai",
+    type: "mobile",
+    type2: "backend",
+  },
+  {
+    image: storifyImage,
+    title: "Storify",
+    description:
+      "Discover a world of calming bedtime stories and customizable sleep sounds.",
+    tags: ["React Native", "Supabase", "ElevenLabs API"],
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.kosemertcan.storify",
+    appStore: "https://apps.apple.com/us/app/storify/id6739540392",
+    webLink: "https://storifyapp.vercel.app/",
+    githubLink: "",
+    generalLink: "/work/storify",
+    type: "mobile",
+    type2: "",
+  },
+  {
+    image: cakirlojistikImage,
+    title: "Çakır Lojistik",
+    description: "Cakirlojistik is a company that provides logistics services.",
+    tags: ["React", "TailwindCSS", "Google Maps API", "Shadcn UI"],
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.rafintech.cakirlojistik",
+    appStore: "",
+    webLink: "https://cakir-frontend.pages.dev/",
+    githubLink: "",
+    generalLink: "/work/cakirlojistik",
+    type: "web",
+    type2: "mobile",
+  },
+  {
+    image: finrendstakeImage,
+    title: "Finrend Stake",
+    description: "Stake your Finrend tokens and earn rewards.",
+    tags: ["React", "TailwindCSS", "Solidity"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://stake.finrend.com/",
+    githubLink: "",
+    generalLink: "/work/finrendstake",
+    type: "web",
+    type2: "blockchain",
+  },
   {
     image: sipsMobileImage,
     title: "Sips",
@@ -100,7 +182,8 @@ export const selectedWorks = [
   {
     image: develadWebImage,
     title: "Develad",
-    description: "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
+    description:
+      "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
     tags: ["React", "Blockchain"],
     playStore: "",
     appStore: "",
@@ -167,14 +250,17 @@ export const selectedWorks = [
     type: "web",
     type2: "",
   },
+  /*
   {
     image: aybumobileImage,
     title: "Aybu Mobile",
     description:
       "The application that contains the food menu, socialization section and announcements for our university.",
     tags: ["React Native", "Reanimated"],
-    playStore: "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
-    appStore: "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
+    appStore:
+      "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
     webLink: "https://aybumobile.com",
     githubLink: "https://github.com/thesammet/aybumobile",
     generalLink: "/work/aybu-mobile",
@@ -190,7 +276,8 @@ export const selectedWorks = [
       "Finrend is a financial application taht followed signals from the stock market and gave recommendations to users.",
     tags: ["React Native"],
     playStore: "https://play.google.com/store/apps/details?id=com.finrend",
-    appStore: "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
+    appStore:
+      "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
     webLink: "http://finrend.com/",
     githubLink: "",
     generalLink: "/work/finrend",
@@ -229,7 +316,8 @@ export const selectedWorks = [
     name: "tummiad",
     image: tummiadImage,
     title: "Tümmiad",
-    description: "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
+    description:
+      "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -260,7 +348,8 @@ export const selectedWorks = [
     description:
       "I have developed a mobile application of a blockchain-based service with react native for the company I work for. I have used web3 libraries such as Wallet Connect.",
     tags: ["React Native", "Web3", "Blockchain"],
-    playStore: "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
     appStore: "https://apps.apple.com/gb/app/open-vote/id1601587507",
     webLink: "",
     githubLink: "",
@@ -275,7 +364,8 @@ export const selectedWorks = [
     description:
       "Playland is a project that I am involved in as a freelancer. QR Supported payment system (iyzico) for a company that already has entertainment stores in most provinces of Turkey, is a multi-featured mobile application where parents can follow their children in the game.",
     tags: ["React Native", "Iyzico Payment"],
-    playStore: "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
     appStore: "https://apps.apple.com/tr/app/playland-mobil/id1631854531",
     webLink: "",
     githubLink: "",
@@ -304,7 +394,8 @@ export const selectedWorks = [
     description:
       "A platform where parents can monitor their children on the school bus along the way, and school management and service companies can easily control and manage the bus.",
     tags: ["React", "Vite", "TailwindCSS", "Google Map"],
-    playStore: "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
     appStore: "https://apps.apple.com/tr/app/eservis/id6463719378",
     webLink: "https://panel.eservis.app/",
     githubLink: "",
@@ -414,7 +505,8 @@ export const selectedWorks = [
     name: "galaksi-organization",
     image: galaksiOrganizationImage,
     title: "Galaksi Organization",
-    description: "An organization website that presents the organization tools.",
+    description:
+      "An organization website that presents the organization tools.",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -424,9 +516,92 @@ export const selectedWorks = [
     type: "web",
     type2: "",
   },
+  */
 ];
 
 export const allWorks = [
+  {
+    name: "flowai",
+    image: flowaiImage,
+    title: "FlowAI",
+    description:
+      "Transform your ideas into professionally crafted rap songs using AI technology.",
+    tags: ["React Native", "NodeJS", "Express", "MongoDB", "Music API"],
+    playStore: "",
+    appStore:
+      "https://apps.apple.com/us/app/ai-rap-music-generator-flow-ai/id6740488650",
+    webLink: "https://flowai-web.vercel.app/",
+    githubLink: "",
+    generalLink: "/work/flowai",
+    photo1: flowaiPhoto1,
+    photo2: flowaiPhoto2,
+    photo3: flowaiPhoto3,
+    text: "",
+    type: "mobile",
+    type2: "backend",
+  },
+  {
+    name: "storify",
+    image: storifyImage,
+    title: "Storify",
+    description:
+      "Discover a world of calming bedtime stories and customizable sleep sounds.",
+    tags: ["React Native", "Supabase", "ElevenLabs API"],
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.kosemertcan.storify",
+    appStore: "https://apps.apple.com/us/app/storify/id6739540392",
+    webLink: "https://storifyapp.vercel.app/",
+    githubLink: "",
+    generalLink: "/work/storify",
+    photo1: storifyPhoto1,
+    photo2: storifyPhoto2,
+    photo3: storifyPhoto3,
+    text: "",
+    type: "mobile",
+    type2: "",
+  },
+  {
+    name: "cakirlojistik",
+    image: cakirlojistikImage,
+    title: "Çakır Lojistik",
+    description: "Cakirlojistik is a company that provides logistics services.",
+    tags: ["React", "TailwindCSS", "Google Maps API", "Shadcn UI"],
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.rafintech.cakirlojistik",
+    appStore: "",
+    webLink: "https://cakir-frontend.pages.dev/",
+    githubLink: "",
+    generalLink: "/work/cakirlojistik",
+    photo1: cakirlojistikPhoto1,
+    photo2: cakirlojistikPhoto2,
+    photo3: cakirlojistikPhoto3,
+    photo4: cakirlojistikPhoto4,
+    photo5: cakirlojistikPhoto5,
+    photo6: cakirlojistikPhoto6,
+    photo7: cakirlojistikPhoto7,
+    photo8: cakirlojistikPhoto8,
+    photo9: cakirlojistikPhoto9,
+    text: "",
+    type: "web",
+    type2: "mobile",
+  },
+  {
+    name: "finrendstake",
+    image: finrendstakeImage,
+    title: "Finrend Stake",
+    description: "Stake your Finrend tokens and earn rewards.",
+    tags: ["React", "TailwindCSS", "Solidity"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://stake.finrend.com/",
+    githubLink: "",
+    generalLink: "/work/finrendstake",
+    photo1: finrendstakePhoto1,
+    photo2: finrendstakePhoto2,
+    text: "",
+    type: "web",
+    type2: "blockchain",
+  },
   {
     name: "sips",
     image: sipsMobileImage,
@@ -453,7 +628,8 @@ export const allWorks = [
     name: "develad",
     image: develadWebImage,
     title: "Develad",
-    description: "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
+    description:
+      "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
     tags: ["React", "Blockchain", "Solidity", "Web3"],
     playStore: "",
     appStore: "",
@@ -529,8 +705,10 @@ export const allWorks = [
     description:
       "The mobile application we developed for our university. The application consists of a weekly menu, monthly food trends, access to school announcements and Aybü Social, the most exciting part of the application. Thus, it makes it easier for students to acquire knowledge and socialize.",
     tags: ["React Native", "Reanimated"],
-    playStore: "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
-    appStore: "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
+    appStore:
+      "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
     webLink: "https://aybumobile.com",
     githubLink: "https://github.com/thesammet/aybumobile",
     generalLink: "/work/aybu-mobile",
@@ -548,7 +726,8 @@ export const allWorks = [
       "Finrend is a financial application taht followed signals from the stock market and gave recommendations to users.",
     tags: ["React Native"],
     playStore: "https://play.google.com/store/apps/details?id=com.finrend",
-    appStore: "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
+    appStore:
+      "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
     webLink: "http://finrend.com/",
     githubLink: "",
     generalLink: "/work/finrend",
@@ -597,7 +776,8 @@ export const allWorks = [
     name: "tummiad",
     image: tummiadImage,
     title: "Tümmiad",
-    description: "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
+    description:
+      "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -634,7 +814,8 @@ export const allWorks = [
     description:
       "I have developed a mobile application of a blockchain-based service with react native for the company I work for. I have used web3 libraries such as Wallet Connect.",
     tags: ["React Native", "Web3", "Blockchain"],
-    playStore: "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
     appStore: "https://apps.apple.com/gb/app/open-vote/id1601587507",
     webLink: "",
     githubLink: "",
@@ -652,7 +833,8 @@ export const allWorks = [
     description:
       "Playland is a project that I am involved in as a freelancer. QR Supported payment system (iyzico) for a company that already has entertainment stores in most provinces of Turkey, is a multi-featured mobile application where parents can follow their children in the game.",
     tags: ["React Native", "Iyzico Payment"],
-    playStore: "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
     appStore: "https://apps.apple.com/tr/app/playland-mobil/id1631854531",
     webLink: "plndverse.com",
     githubLink: "",
@@ -706,7 +888,8 @@ export const allWorks = [
     description:
       "A platform where parents can monitor their children on the school bus along the way, and school management and service companies can easily control and manage the bus.",
     tags: ["React", "Vite", "TailwindCSS", "Google Map"],
-    playStore: "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
     appStore: "https://apps.apple.com/tr/app/eservis/id6463719378",
     webLink: "https://panel.eservis.app/",
     githubLink: "",
@@ -843,7 +1026,8 @@ export const allWorks = [
     name: "galaksi-organization",
     image: galaksiOrganizationImage,
     title: "Galaksi Organization",
-    description: "An organization website that presents the organization tools.",
+    description:
+      "An organization website that presents the organization tools.",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -860,7 +1044,8 @@ export const allWorks = [
     name: "monster-hunt",
     image: monsterhuntImage,
     title: "Monster Hunt",
-    description: "A little game that I developed with Vue.js. This is the first app on Vue.js.",
+    description:
+      "A little game that I developed with Vue.js. This is the first app on Vue.js.",
     tags: ["JavaScript", "Vue"],
     playStore: "",
     appStore: "",
@@ -877,7 +1062,8 @@ export const allWorks = [
     name: "daily-frontend",
     image: dailyfrontendImage,
     title: "Daily Frontend",
-    description: "The Project that I am coding the designs I like. I have used a lot of Scss.",
+    description:
+      "The Project that I am coding the designs I like. I have used a lot of Scss.",
     tags: ["Css", "Scss", "Gulp.js"],
     playStore: "",
     appStore: "",
