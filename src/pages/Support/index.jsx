@@ -11,7 +11,7 @@ const Support = () => {
         on your journey!
       </p>
       <CustomButton
-        href="mailto:contact@mertcankose.com"
+        href="mailto:mertcankose142@gmail.com"
         text="Contact Me"
         className="mt-10 mx-auto"
       />

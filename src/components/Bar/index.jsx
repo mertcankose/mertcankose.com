@@ -4,7 +4,7 @@ import Available from "../Available";
 const Bar = ({ className }) => {
   return (
     <a
-      href="mailto:contact@mertcankose.com"
+      href="mailto:mertcankose142@gmail.com"
       className={[styles.bar, className].join(" ")}
     >
       <div className="relative flex overflow-x-hidden">

@@ -9,7 +9,7 @@ import { logEvent } from "firebase/analytics";
 
 const Main = ({ className }) => {
   const copyEmail = () => {
-    navigator.clipboard.writeText("contact@mertcankose.com");
+    navigator.clipboard.writeText("mertcankose142@gmail.com");
     successMessage("Email copied to clipboard!");
   };
 

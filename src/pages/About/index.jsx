@@ -44,7 +44,7 @@ const About = () => {
         together to turn your ideas into reality.
       </p>
       <CustomButton
-        href="mailto:contact@mertcankose.com"
+        href="mailto:mertcankose142@gmail.com"
         text="Contact Me"
         className="mt-10 inline-flex mx-auto"
       />

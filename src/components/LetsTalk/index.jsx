@@ -4,7 +4,7 @@ import styles from "./style.module.css";
 
 const LetsTalk = () => {
   const copyEmail = () => {
-    navigator.clipboard.writeText("contact@mertcankose.com");
+    navigator.clipboard.writeText("mertcankose142@gmail.com");
     successMessage("Email copied to clipboard!");
   };
 
@@ -15,10 +15,7 @@ const LetsTalk = () => {
         Something on your mind? Get in touch and let's chat!
       </p>
       <div className="flex items-center gap-3 mt-6">
-        <CustomButton
-          href="mailto:contact@mertcankose.com"
-          text="Send me an email"
-        />
+        <CustomButton href="mailto:mertcankose142@gmail.com" text="Send me an email" />
 
         <CustomButton onClick={() => copyEmail()} text="Copy Email" />
       </div>
