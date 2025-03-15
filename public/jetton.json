@@ -1,0 +1,7 @@
+{
+    "name": "Minter Token",
+    "description": "Minter Token for TonMinter testing",
+    "symbol": "MINTER",
+    "decimals": 9,
+    "image_data": "https://mertcankose.com/ton.png"
+ }
