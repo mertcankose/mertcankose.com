@@ -1,0 +1,12 @@
+{
+    "name": "CLKR Stake Collection",
+    "description": "CLKR Stake Collection to stake CLKR",
+    "image": "https://mertcankose.com/ton.png",
+    "content_url": "https://mertcankose.com/ton.png",
+    "attributes": [
+        {
+            "trait_type": "Stake",
+            "value": "CLKR"
+        }
+    ]
+ }
