@@ -1,12 +1,20 @@
 {
-    "name": "CLKR Stake NFT",
-    "description": "CLKR Stake NFT to stake CLKR",
-    "image": "https://clicker.games/clkr-token.png",
-    "content_url": "https://clicker.games/clkr-token.png",
+    "lottie": "https://nft.fragment.com/gift/signetring-1820.lottie.json",
     "attributes": [
-        {
-            "trait_type": "Stake",
-            "value": "CLKR"
-        }
-    ]
- }
+      {
+        "trait_type": "Model",
+        "value": "Skull"
+      },
+      {
+        "trait_type": "Backdrop",
+        "value": "Dark Lilac"
+      },
+      {
+        "trait_type": "Symbol",
+        "value": "Owl"
+      }
+    ],
+    "description": "An exclusive Signet Ring with the appearance Skull on a Dark Lilac background with Owl icons.",
+    "name": "Signet Ring #1820",
+    "image": "https://nft.fragment.com/gift/signetring-1820.webp"
+  }

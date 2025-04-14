@@ -1,11 +1,6 @@
 {
-    "image": "https://clicker.games/clkr-token.png",
-    "name": "CLKR Stake Collection",
-    "description": "CLKR Stake Collection to stake CLKR",
-    "social_links": [
-        {
-            "name": "Twitter",
-            "url": "https://x.com/clickerfarm"
-        }
-    ]
- }
+    "name": "Signet Rings",
+    "image": "https://nft.fragment.com/collection/signetring.webp",
+    "description": "Signet Rings is an exclusive NFT collection by Telegram. Owners can showcase these unique NFTs in the Gifts section of their Telegram account and ‘wear’ them — displaying them next to their names and applying the gift’s unique style to personalize their profile page.",
+    "external_link": "https://fragment.com/gifts/signetring"
+  }
