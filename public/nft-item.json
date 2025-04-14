@@ -1,8 +1,8 @@
 {
     "name": "CLKR Stake NFT",
     "description": "CLKR Stake NFT to stake CLKR",
-    "image": "https://clicker.games/clkr-token.png",
-    "content_url": "https://clicker.games/clkr-token.png",
+    "image": "ipfs://QmU2rAhbLSatuB7dv8g2c8rLPvo5FBsSmKUTZmk39L1W4C",
+    "content_url": "ipfs://QmU2rAhbLSatuB7dv8g2c8rLPvo5FBsSmKUTZmk39L1W4C",
     "attributes": [
         {
             "trait_type": "Stake",
