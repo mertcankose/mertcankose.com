@@ -1,0 +1,19 @@
+{
+    "description": "Clicker Farm Game Staking Pool 2 Staking NFT. Users can stake their CLKR tokens and receive a NFT as a proof of staking.",
+    "name": "Clicker Farm Pool 2 Staking NFT",
+    "image": "https://clicker.games/clkr-token.png",
+    "attributes": [
+      {
+        "trait_type": "Token",
+        "value": "CLKR"
+      },
+      {
+        "trait_type": "Pool",
+        "value": "Pool 2"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Game Spending"
+      }
+    ]
+  }
