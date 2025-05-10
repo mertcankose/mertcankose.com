@@ -36,7 +36,7 @@ export const skills = [
   },
   {
     id: 8,
-    text: "Web3 | Solidity | EVM | Solana | Rust",
+    text: "Web3 | Solidity | EVM | Ton | Func",
     active: true,
   },
   {
@@ -46,7 +46,7 @@ export const skills = [
   },
   {
     id: 10,
-    text: "Wordpress | MYSQL",
+    text: "Wordpress | MYSQL | PostgreSQL",
     active: false,
   },
 ];

@@ -108,16 +108,67 @@ import cakirlojistikPhoto7 from "../assets/images/cakirlojistik/photo7.webp";
 import cakirlojistikPhoto8 from "../assets/images/cakirlojistik/photo8.webp";
 import cakirlojistikPhoto9 from "../assets/images/cakirlojistik/photo9.webp";
 
+import tonminterImage from "../assets/images/tonminter/tonminter.webp";
+import tonminterPhoto1 from "../assets/images/tonminter/photo1.webp";
+import tonminterPhoto2 from "../assets/images/tonminter/photo2.webp";
+
+import tonutilsImage from "../assets/images/tonutils/tonutils.webp";
+import tonutilsPhoto1 from "../assets/images/tonutils/photo1.webp";
+import tonutilsPhoto2 from "../assets/images/tonutils/photo2.webp";
+import tonutilsPhoto3 from "../assets/images/tonutils/photo3.webp";
+
+import vulnheroImage from "../assets/images/vulnhero/vulnhero.webp";
+import vulnheroPhoto1 from "../assets/images/vulnhero/photo1.webp";
+import vulnheroPhoto2 from "../assets/images/vulnhero/photo2.webp";
+import vulnheroPhoto3 from "../assets/images/vulnhero/photo3.webp";
+
 export const selectedWorks = [
+  {
+    image: vulnheroImage,
+    title: "VulnHero",
+    description: "A modern landing page for VulnHero's web security platform.",
+    tags: ["React", "NextJS", "TailwindCSS", "NodeJS", "Express", "MongoDB"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://vulnhero.com/",
+    githubLink: "",
+    generalLink: "/work/vulnhero",
+    type: "web",
+    type2: "backend",
+  },
+  {
+    image: tonutilsImage,
+    title: "Ton Utils",
+    description: "Ton Utils is a collection of tools for the TON blockchain.",
+    tags: ["VueJS", "NuxtJS", "FunC", "TonApi", "Blockchain"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://tonutils.nuxt.dev/",
+    githubLink: "https://github.com/clickerspace/vesting",
+    generalLink: "/work/tonutils",
+    type: "web",
+    type2: "blockchain",
+  },
+  {
+    image: tonminterImage,
+    title: "Ton Minter",
+    description: "Ton Minter is a platform that allows users to mint jettons on the TON blockchain.",
+    tags: ["React", "FunC", "TonApi", "Blockchain"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://tonminter.co/",
+    githubLink: "https://github.com/mertcankose/tonminter-contracts",
+    generalLink: "/work/tonminter",
+    type: "web",
+    type2: "blockchain",
+  },
   {
     image: flowaiImage,
     title: "FlowAI",
-    description:
-      "Transform your ideas into professionally crafted rap songs using AI technology.",
+    description: "Transform your ideas into professionally crafted rap songs using AI technology.",
     tags: ["React Native", "NodeJS", "Express", "MongoDB", "Music API"],
     playStore: "",
-    appStore:
-      "https://apps.apple.com/us/app/ai-rap-music-generator-flow-ai/id6740488650",
+    appStore: "https://apps.apple.com/us/app/ai-rap-music-generator-flow-ai/id6740488650",
     webLink: "https://flowai-web.vercel.app/",
     githubLink: "",
     generalLink: "/work/flowai",
@@ -127,11 +178,9 @@ export const selectedWorks = [
   {
     image: storifyImage,
     title: "Storify",
-    description:
-      "Discover a world of calming bedtime stories and customizable sleep sounds.",
-    tags: ["React Native", "Supabase", "ElevenLabs API"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.kosemertcan.storify",
+    description: "Discover a world of calming bedtime stories and customizable sleep sounds.",
+    tags: ["React Native", "Supabase", "ElevenLabs API", "Firebase"],
+    playStore: "https://play.google.com/store/apps/details?id=com.kosemertcan.storify",
     appStore: "https://apps.apple.com/us/app/storify/id6739540392",
     webLink: "https://storifyapp.vercel.app/",
     githubLink: "",
@@ -143,9 +192,8 @@ export const selectedWorks = [
     image: cakirlojistikImage,
     title: "Çakır Lojistik",
     description: "Cakirlojistik is a company that provides logistics services.",
-    tags: ["React", "TailwindCSS", "Google Maps API", "Shadcn UI"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.rafintech.cakirlojistik",
+    tags: ["React", "TailwindCSS", "Google Maps API", "Shadcn UI", "Python", "FastAPI"],
+    playStore: "https://play.google.com/store/apps/details?id=com.rafintech.cakirlojistik",
     appStore: "",
     webLink: "https://cakir-frontend.pages.dev/",
     githubLink: "",
@@ -170,7 +218,7 @@ export const selectedWorks = [
     image: sipsMobileImage,
     title: "Sips",
     description: "An app that combines the dating and coffee experience.",
-    tags: ["React Native"],
+    tags: ["React Native", "Python", "Django", "PostgreSQL"],
     playStore: "",
     appStore: "",
     webLink: "",
@@ -182,8 +230,7 @@ export const selectedWorks = [
   {
     image: develadWebImage,
     title: "Develad",
-    description:
-      "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
+    description: "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
     tags: ["React", "Blockchain"],
     playStore: "",
     appStore: "",
@@ -213,7 +260,7 @@ export const selectedWorks = [
     title: "Navvigo",
     description:
       "Decentralized navigation app that designed socio-economically to change people's traveling habits by its special rewarding system.",
-    tags: ["React Native", "Blockchain", "Solidity", "Web3"],
+    tags: ["React Native", "Blockchain", "Solidity", "Web3", "Python", "Django", "PostgreSQL"],
     playStore: "",
     appStore: "",
     webLink: "",
@@ -227,21 +274,21 @@ export const selectedWorks = [
     title: "Funlord Mobil",
     description:
       "Qr payment solution to play with toys in certain entertainment centers. It hosts the campaigns of entertainment brands. It includes Iyzico payment system.",
-    tags: ["React Native", "Iyzico Payment"],
+    tags: ["React Native", "Iyzico Payment", "Python", "Django", "PostgreSQL"],
     playStore: "https://play.google.com/store/apps/details?id=com.funlord",
     appStore: "https://apps.apple.com/tr/app/funlord-mobil/id6446031864?l=tr",
     webLink: "",
     githubLink: "",
     generalLink: "/work/funlord-mobile",
     type: "mobile",
-    type2: "",
+    type2: "backend",
   },
   {
     image: okkoImage,
     title: "Okko",
     description:
       "Okko is an entertainment company with adventure parks and various other entertainment centers. I developed a ticket buying application for this company. The idea is that there is no queue at the box office and people can buy tickets easily.",
-    tags: ["React", "Vite", "TailwindCSS"],
+    tags: ["React", "Vite", "TailwindCSS", "Python", "Django", "PostgreSQL"],
     playStore: "",
     appStore: "",
     webLink: "https://bilet.okko.com.tr/",
@@ -250,17 +297,14 @@ export const selectedWorks = [
     type: "web",
     type2: "",
   },
-  /*
   {
     image: aybumobileImage,
     title: "Aybu Mobile",
     description:
       "The application that contains the food menu, socialization section and announcements for our university.",
     tags: ["React Native", "Reanimated"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
-    appStore:
-      "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
+    playStore: "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
+    appStore: "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
     webLink: "https://aybumobile.com",
     githubLink: "https://github.com/thesammet/aybumobile",
     generalLink: "/work/aybu-mobile",
@@ -276,8 +320,7 @@ export const selectedWorks = [
       "Finrend is a financial application taht followed signals from the stock market and gave recommendations to users.",
     tags: ["React Native"],
     playStore: "https://play.google.com/store/apps/details?id=com.finrend",
-    appStore:
-      "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
+    appStore: "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
     webLink: "http://finrend.com/",
     githubLink: "",
     generalLink: "/work/finrend",
@@ -316,8 +359,7 @@ export const selectedWorks = [
     name: "tummiad",
     image: tummiadImage,
     title: "Tümmiad",
-    description:
-      "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
+    description: "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -348,8 +390,7 @@ export const selectedWorks = [
     description:
       "I have developed a mobile application of a blockchain-based service with react native for the company I work for. I have used web3 libraries such as Wallet Connect.",
     tags: ["React Native", "Web3", "Blockchain"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
+    playStore: "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
     appStore: "https://apps.apple.com/gb/app/open-vote/id1601587507",
     webLink: "",
     githubLink: "",
@@ -364,8 +405,7 @@ export const selectedWorks = [
     description:
       "Playland is a project that I am involved in as a freelancer. QR Supported payment system (iyzico) for a company that already has entertainment stores in most provinces of Turkey, is a multi-featured mobile application where parents can follow their children in the game.",
     tags: ["React Native", "Iyzico Payment"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
+    playStore: "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
     appStore: "https://apps.apple.com/tr/app/playland-mobil/id1631854531",
     webLink: "",
     githubLink: "",
@@ -394,8 +434,7 @@ export const selectedWorks = [
     description:
       "A platform where parents can monitor their children on the school bus along the way, and school management and service companies can easily control and manage the bus.",
     tags: ["React", "Vite", "TailwindCSS", "Google Map"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
+    playStore: "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
     appStore: "https://apps.apple.com/tr/app/eservis/id6463719378",
     webLink: "https://panel.eservis.app/",
     githubLink: "",
@@ -408,14 +447,14 @@ export const selectedWorks = [
     title: "Funlord Admin Panel",
     description:
       "Admin panel of Funlord Mobile application. It was developed in addition to the application for super admin and staff. They can manage the campaigns, toys, and users.",
-    tags: ["React", "Vite", "TailwindCSS"],
+    tags: ["React", "Vite", "TailwindCSS", "Python", "Django", "PostgreSQL"],
     playStore: "",
     appStore: "",
     webLink: "https://www.funlord.com.tr/",
     githubLink: "",
     generalLink: "/work/funlord-admin",
     type: "web",
-    type2: "",
+    type2: "backend",
   },
   {
     image: nodeapiImage,
@@ -505,8 +544,7 @@ export const selectedWorks = [
     name: "galaksi-organization",
     image: galaksiOrganizationImage,
     title: "Galaksi Organization",
-    description:
-      "An organization website that presents the organization tools.",
+    description: "An organization website that presents the organization tools.",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -516,20 +554,70 @@ export const selectedWorks = [
     type: "web",
     type2: "",
   },
-  */
 ];
 
 export const allWorks = [
   {
+    name: "vulnhero",
+    image: vulnheroImage,
+    title: "VulnHero",
+    description: "A modern landing page for VulnHero's web security platform.",
+    tags: ["React", "NextJS", "TailwindCSS", "NodeJS", "Express", "MongoDB"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://vulnhero.com/",
+    githubLink: "",
+    generalLink: "/work/vulnhero",
+    photo1: vulnheroPhoto1,
+    photo2: vulnheroPhoto2,
+    photo3: vulnheroPhoto3,
+    text: "",
+    type: "web",
+    type2: "backend",
+  },
+  {
+    name: "tonutils",
+    image: tonutilsImage,
+    title: "Ton Utils",
+    description: "Ton Utils is a collection of tools for the TON blockchain.",
+    tags: ["VueJS", "NuxtJS", "FunC", "TonApi", "Blockchain"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://tonutils.nuxt.dev/",
+    githubLink: "https://github.com/clickerspace/vesting",
+    generalLink: "/work/tonutils",
+    photo1: tonutilsPhoto1,
+    photo2: tonutilsPhoto2,
+    photo3: tonutilsPhoto3,
+    text: "",
+    type: "web",
+    type2: "blockchain",
+  },
+  {
+    name: "tonminter",
+    image: tonminterImage,
+    title: "Ton Minter",
+    description: "Ton Minter is a platform that allows users to mint jettons on the TON blockchain.",
+    tags: ["React", "FunC", "TonApi", "Blockchain"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://tonminter.co/",
+    githubLink: "https://github.com/mertcankose/tonminter-contracts",
+    generalLink: "/work/tonminter",
+    photo1: tonminterPhoto1,
+    photo2: tonminterPhoto2,
+    text: "",
+    type: "web",
+    type2: "blockchain",
+  },
+  {
     name: "flowai",
     image: flowaiImage,
     title: "FlowAI",
-    description:
-      "Transform your ideas into professionally crafted rap songs using AI technology.",
+    description: "Transform your ideas into professionally crafted rap songs using AI technology.",
     tags: ["React Native", "NodeJS", "Express", "MongoDB", "Music API"],
     playStore: "",
-    appStore:
-      "https://apps.apple.com/us/app/ai-rap-music-generator-flow-ai/id6740488650",
+    appStore: "https://apps.apple.com/us/app/ai-rap-music-generator-flow-ai/id6740488650",
     webLink: "https://flowai-web.vercel.app/",
     githubLink: "",
     generalLink: "/work/flowai",
@@ -544,11 +632,9 @@ export const allWorks = [
     name: "storify",
     image: storifyImage,
     title: "Storify",
-    description:
-      "Discover a world of calming bedtime stories and customizable sleep sounds.",
-    tags: ["React Native", "Supabase", "ElevenLabs API"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.kosemertcan.storify",
+    description: "Discover a world of calming bedtime stories and customizable sleep sounds.",
+    tags: ["React Native", "Supabase", "ElevenLabs API", "Firebae"],
+    playStore: "https://play.google.com/store/apps/details?id=com.kosemertcan.storify",
     appStore: "https://apps.apple.com/us/app/storify/id6739540392",
     webLink: "https://storifyapp.vercel.app/",
     githubLink: "",
@@ -565,9 +651,8 @@ export const allWorks = [
     image: cakirlojistikImage,
     title: "Çakır Lojistik",
     description: "Cakirlojistik is a company that provides logistics services.",
-    tags: ["React", "TailwindCSS", "Google Maps API", "Shadcn UI"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.rafintech.cakirlojistik",
+    tags: ["React", "TailwindCSS", "Google Maps API", "Shadcn UI", "Python", "FastAPI"],
+    playStore: "https://play.google.com/store/apps/details?id=com.rafintech.cakirlojistik",
     appStore: "",
     webLink: "https://cakir-frontend.pages.dev/",
     githubLink: "",
@@ -607,7 +692,7 @@ export const allWorks = [
     image: sipsMobileImage,
     title: "Sips",
     description: "An app that combines the dating and coffee experience.",
-    tags: ["React Native"],
+    tags: ["React Native", "Python", "Django", "PostgreSQL"],
     playStore: "",
     appStore: "",
     webLink: "",
@@ -628,9 +713,8 @@ export const allWorks = [
     name: "develad",
     image: develadWebImage,
     title: "Develad",
-    description:
-      "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
-    tags: ["React", "Blockchain", "Solidity", "Web3"],
+    description: "A website promoting the AR/VR product and a blockchain-based pre-sale page for DVL token.",
+    tags: ["React", "Blockchain"],
     playStore: "",
     appStore: "",
     webLink: "https://dvltoken.com/",
@@ -667,7 +751,7 @@ export const allWorks = [
     title: "Navvigo",
     description:
       "Decentralized navigation app that designed socio-economically to change people's traveling habits by its special rewarding system.",
-    tags: ["React Native", "Blockchain", "Solidity", "Web3"],
+    tags: ["React Native", "Blockchain", "Solidity", "Web3", "Python", "Django", "PostgreSQL"],
     playStore: "",
     appStore: "",
     webLink: "",
@@ -686,7 +770,7 @@ export const allWorks = [
     title: "Funlord Mobil",
     description:
       "Funlord offers a qr payment solution to play with toys in certain entertainment centers and is a mobile application that hosts the campaigns of entertainment brands. I made the whole app with React Native.",
-    tags: ["React Native", "Iyzico Payment"],
+    tags: ["React Native", "Iyzico Payment", "Python", "Django", "PostgreSQL"],
     playStore: "https://play.google.com/store/apps/details?id=com.funlord",
     appStore: "https://apps.apple.com/tr/app/funlord-mobil/id6446031864?l=tr",
     webLink: "",
@@ -696,7 +780,7 @@ export const allWorks = [
     photo2: funlordMobilePhoto2,
     text: "",
     type: "mobile",
-    type2: "",
+    type2: "backend",
   },
   {
     name: "aybu-mobile",
@@ -705,10 +789,8 @@ export const allWorks = [
     description:
       "The mobile application we developed for our university. The application consists of a weekly menu, monthly food trends, access to school announcements and Aybü Social, the most exciting part of the application. Thus, it makes it easier for students to acquire knowledge and socialize.",
     tags: ["React Native", "Reanimated"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
-    appStore:
-      "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
+    playStore: "https://play.google.com/store/apps/details?id=com.aybumobile&gl=TR",
+    appStore: "https://apps.apple.com/tr/app/ayb%C3%BC-mobile/id1658659307?l=tr",
     webLink: "https://aybumobile.com",
     githubLink: "https://github.com/thesammet/aybumobile",
     generalLink: "/work/aybu-mobile",
@@ -726,8 +808,7 @@ export const allWorks = [
       "Finrend is a financial application taht followed signals from the stock market and gave recommendations to users.",
     tags: ["React Native"],
     playStore: "https://play.google.com/store/apps/details?id=com.finrend",
-    appStore:
-      "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
+    appStore: "https://apps.apple.com/gw/app/finrend-your-financial-friend/id1633138818",
     webLink: "http://finrend.com/",
     githubLink: "",
     generalLink: "/work/finrend",
@@ -776,8 +857,7 @@ export const allWorks = [
     name: "tummiad",
     image: tummiadImage,
     title: "Tümmiad",
-    description:
-      "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
+    description: "Tüm Mucitler İcat-İnovasyon ve Araştırma Derneğimi Resmi Web Sitesi",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -814,8 +894,7 @@ export const allWorks = [
     description:
       "I have developed a mobile application of a blockchain-based service with react native for the company I work for. I have used web3 libraries such as Wallet Connect.",
     tags: ["React Native", "Web3", "Blockchain"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
+    playStore: "https://play.google.com/store/apps/details?id=com.om.openvote&hl=tr&gl=US",
     appStore: "https://apps.apple.com/gb/app/open-vote/id1601587507",
     webLink: "",
     githubLink: "",
@@ -833,8 +912,7 @@ export const allWorks = [
     description:
       "Playland is a project that I am involved in as a freelancer. QR Supported payment system (iyzico) for a company that already has entertainment stores in most provinces of Turkey, is a multi-featured mobile application where parents can follow their children in the game.",
     tags: ["React Native", "Iyzico Payment"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
+    playStore: "https://play.google.com/store/apps/details?id=com.playlandmobile&hl=tr&gl=US",
     appStore: "https://apps.apple.com/tr/app/playland-mobil/id1631854531",
     webLink: "plndverse.com",
     githubLink: "",
@@ -869,7 +947,7 @@ export const allWorks = [
     title: "Okko",
     description:
       "Okko is an entertainment company with adventure parks and various other entertainment centers. I developed a ticket buying application for this company. The idea is that there is no queue at the box office and people can buy tickets easily.",
-    tags: ["React", "Vite", "TailwindCSS"],
+    tags: ["React", "Vite", "TailwindCSS", "Python", "Django", "PostgreSQL"],
     playStore: "",
     appStore: "",
     webLink: "https://bilet.okko.com.tr/",
@@ -879,7 +957,7 @@ export const allWorks = [
     photo2: okkoPhoto2,
     text: "",
     type: "web",
-    type2: "",
+    type2: "backend",
   },
   {
     name: "e-servis",
@@ -888,8 +966,7 @@ export const allWorks = [
     description:
       "A platform where parents can monitor their children on the school bus along the way, and school management and service companies can easily control and manage the bus.",
     tags: ["React", "Vite", "TailwindCSS", "Google Map"],
-    playStore:
-      "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
+    playStore: "https://play.google.com/store/apps/details?id=com.vyros.eservis&pli=1",
     appStore: "https://apps.apple.com/tr/app/eservis/id6463719378",
     webLink: "https://panel.eservis.app/",
     githubLink: "",
@@ -906,8 +983,7 @@ export const allWorks = [
     title: "Funlord Admin Panel",
     description:
       "Admin panel of Funlord mobile application. It's a React project that I wrote with a few developers that the staff or application owners in entertainment centers can use as super admins.",
-    tags: ["React", "Vite", "TailwindCSS"],
-
+    tags: ["React", "Vite", "TailwindCSS", "Python", "Django", "PostgreSQL"],
     playStore: "",
     appStore: "",
     webLink: "https://www.funlord.com.tr/",
@@ -917,7 +993,7 @@ export const allWorks = [
     photo2: funlordAdminPhoto2,
     text: "",
     type: "web",
-    type2: "",
+    type2: "backend",
   },
   {
     name: "node-api",
@@ -1026,8 +1102,7 @@ export const allWorks = [
     name: "galaksi-organization",
     image: galaksiOrganizationImage,
     title: "Galaksi Organization",
-    description:
-      "An organization website that presents the organization tools.",
+    description: "An organization website that presents the organization tools.",
     tags: ["Wordpress"],
     playStore: "",
     appStore: "",
@@ -1044,8 +1119,7 @@ export const allWorks = [
     name: "monster-hunt",
     image: monsterhuntImage,
     title: "Monster Hunt",
-    description:
-      "A little game that I developed with Vue.js. This is the first app on Vue.js.",
+    description: "A little game that I developed with Vue.js. This is the first app on Vue.js.",
     tags: ["JavaScript", "Vue"],
     playStore: "",
     appStore: "",
@@ -1062,8 +1136,7 @@ export const allWorks = [
     name: "daily-frontend",
     image: dailyfrontendImage,
     title: "Daily Frontend",
-    description:
-      "The Project that I am coding the designs I like. I have used a lot of Scss.",
+    description: "The Project that I am coding the designs I like. I have used a lot of Scss.",
     tags: ["Css", "Scss", "Gulp.js"],
     playStore: "",
     appStore: "",
