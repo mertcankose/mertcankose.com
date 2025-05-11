@@ -122,12 +122,33 @@ import vulnheroPhoto1 from "../assets/images/vulnhero/photo1.webp";
 import vulnheroPhoto2 from "../assets/images/vulnhero/photo2.webp";
 import vulnheroPhoto3 from "../assets/images/vulnhero/photo3.webp";
 
+import weatherImage from "../assets/images/weather/weather.webp";
+import weatherPhoto1 from "../assets/images/weather/photo1.webp";
+import weatherPhoto2 from "../assets/images/weather/photo2.webp";
+import weatherPhoto3 from "../assets/images/weather/photo3.webp";
+import weatherPhoto4 from "../assets/images/weather/photo4.webp";
+import weatherPhoto5 from "../assets/images/weather/photo5.webp";
+
+
 export const selectedWorks = [
+  {
+    image: weatherImage,
+    title: "Weather",
+    description: "A weather app that shows the weather of the city.",
+    tags: ["React", "CesiumJS", "Java Spring Boot", "PostgreSQL", "OpenWeatherMap"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://weather-cesium.vercel.app/",
+    githubLink: "",
+    generalLink: "/work/weather",
+    type: "web",
+    type2: "backend",
+  },
   {
     image: vulnheroImage,
     title: "VulnHero",
     description: "A modern landing page for VulnHero's web security platform.",
-    tags: ["React", "NextJS", "TailwindCSS", "NodeJS", "Express", "MongoDB"],
+    tags: ["React", "NextJS", "TailwindCSS", "NodeJS", "Express", "MongoDB", "Parse"],
     playStore: "",
     appStore: "",
     webLink: "https://vulnhero.com/",
@@ -140,7 +161,7 @@ export const selectedWorks = [
     image: tonutilsImage,
     title: "Ton Utils",
     description: "Ton Utils is a collection of tools for the TON blockchain.",
-    tags: ["VueJS", "NuxtJS", "FunC", "TonApi", "Blockchain"],
+    tags: ["VueJS", "NuxtJS", "FunC", "TonApi", "Blockchain", "Docker", "GraphQL", "Prisma"],
     playStore: "",
     appStore: "",
     webLink: "https://tonutils.nuxt.dev/",
@@ -558,11 +579,31 @@ export const selectedWorks = [
 
 export const allWorks = [
   {
+    name: "weather",
+    image: weatherImage,
+    title: "Weather",
+    description: "A weather app that shows the weather of the city.",
+    tags: ["React", "CesiumJS", "Java Spring Boot", "PostgreSQL", "OpenWeatherMap"],
+    playStore: "",
+    appStore: "",
+    webLink: "https://weather-cesium.vercel.app/",
+    githubLink: "",
+    generalLink: "/work/weather",
+    photo1: weatherPhoto1,
+    photo2: weatherPhoto2,
+    photo3: weatherPhoto3,
+    photo4: weatherPhoto4,
+    photo5: weatherPhoto5,
+    text: "",
+    type: "web",
+    type2: "backend",
+  },
+  {
     name: "vulnhero",
     image: vulnheroImage,
     title: "VulnHero",
     description: "A modern landing page for VulnHero's web security platform.",
-    tags: ["React", "NextJS", "TailwindCSS", "NodeJS", "Express", "MongoDB"],
+    tags: ["React", "NextJS", "TailwindCSS", "NodeJS", "Express", "MongoDB", "Parse"],
     playStore: "",
     appStore: "",
     webLink: "https://vulnhero.com/",
@@ -580,7 +621,7 @@ export const allWorks = [
     image: tonutilsImage,
     title: "Ton Utils",
     description: "Ton Utils is a collection of tools for the TON blockchain.",
-    tags: ["VueJS", "NuxtJS", "FunC", "TonApi", "Blockchain"],
+    tags: ["VueJS", "NuxtJS", "FunC", "TonApi", "Blockchain", "Docker", "GraphQL", "Prisma"],
     playStore: "",
     appStore: "",
     webLink: "https://tonutils.nuxt.dev/",
