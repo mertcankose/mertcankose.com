@@ -17,11 +17,6 @@ export const social = [
     icon: <Linkedin width="28" height="28" />,
   },
   {
-    name: "Twitter",
-    url: "https://twitter.com/mertcankose_",
-    icon: <Twitter width="28" height="28" />,
-  },
-  {
     name: "Email",
     url: "mailto:mertcankose142@gmail.com",
     icon: <Email width="28" height="28" />,
