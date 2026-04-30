@@ -6,10 +6,10 @@ const About = () => {
   return (
     <div className={styles.about}>
       <Helmet>
-        <title>Mertcan Köse | Mobile, Web and Blockchain Developer</title>
+        <title>About | Mertcan Köse</title>
         <meta
           name="description"
-          content="Mertcan Köse - Mobile, Web and Blockchain Developer"
+          content="About Mertcan Köse — a software engineer building beautiful, user-friendly mobile and web applications."
         />
       </Helmet>
       <h2 className={styles.heading}>Hi, hello and welcome stranger</h2>

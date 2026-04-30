@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>Mertcan Köse | Mobile, Web and Blockchain Developer</title>
-        <meta name="description" content="Mertcan Köse - Mobile, Web and Blockchain Developer" />
+        <title>Mertcan Köse | Mobile and Web Developer</title>
+        <meta name="description" content="Mertcan Köse - Mobile and Web Developer crafting clean, user-friendly digital products." />
       </Helmet>
 
       <Main className={styles.mainSection} />

@@ -15,8 +15,8 @@ const Work = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        <title>Mertcan Köse | Mobile, Web and Blockchain Developer</title>
-        <meta name="description" content="Mertcan Köse - Mobile, Web and Blockchain Developer" />
+        <title>Work | Mertcan Köse</title>
+        <meta name="description" content="Selected and complete work by Mertcan Köse — mobile and web applications shipped across companies and freelance." />
       </Helmet>
       <h2 className={styles.heading}>All Work</h2>
       <div className={styles.categories}>

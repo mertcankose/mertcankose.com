@@ -6,10 +6,10 @@ const Career = () => {
   return (
     <>
       <Helmet>
-        <title>Mertcan Köse | Mobile, Web and Blockchain Developer</title>
+        <title>Career | Mertcan Köse</title>
         <meta
           name="description"
-          content="Mertcan Köse - Mobile, Web and Blockchain Developer"
+          content="The career journey of Mertcan Köse — companies, roles, and projects across mobile and web."
         />
       </Helmet>
       <CareerLine items={allCareers} className="mt-20" />
