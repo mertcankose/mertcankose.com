@@ -15,8 +15,8 @@ const Home = () => {
       </Helmet>
 
       <Main className={styles.mainSection} />
-      <Works items={selectedWorks} className="" />
-      <CareerLine items={allCareers} className="mt-24" />
+      <CareerLine items={allCareers} className="" />
+      <Works items={selectedWorks} className="mt-24" />
       <Skills className={styles.skillsSection} />
    
 
