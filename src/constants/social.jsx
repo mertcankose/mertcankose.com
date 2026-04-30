@@ -21,16 +21,14 @@ export const social = [
     url: "mailto:mertcankose142@gmail.com",
     icon: <Email width="28" height="28" />,
   },
-  /*
   {
     name: "App Store",
-    url: "https://apps.apple.com/us/developer/mertcan-kose/id1714780859",
+    url: "https://apps.apple.com/tr/developer/mertcan-kose/id1714780859",
     icon: <AppStore width="28" height="28" />,
   },
   {
     name: "Play Store",
-    url: "https://play.google.com/store/apps/developer?id=Mertcan+K%C3%B6se",
+    url: "https://play.google.com/store/apps/developer?id=Mertcan+K%C3%B6se&hl=en_NZ",
     icon: <PlayStore width="28" height="28" />,
   },
-  */
 ];

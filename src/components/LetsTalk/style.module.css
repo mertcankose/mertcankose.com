@@ -1,7 +1,7 @@
 .container {
     @apply
     flex flex-col items-center
-    px-4 2xl:px-0
+    w-full px-8 xl:px-0
     mt-8
 }
 

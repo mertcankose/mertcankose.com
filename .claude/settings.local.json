@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(xargs ls *)"
+      "Bash(xargs ls *)",
+      "Bash(cp /Users/mertcankose/Downloads/supsis.avif /Users/mertcankose/Desktop/mertcan/Projects/Personal/mertcankose.com/src/assets/images/career/supsis.avif)",
+      "Bash(cp /Users/mertcankose/Downloads/finrend.webp /Users/mertcankose/Desktop/mertcan/Projects/Personal/mertcankose.com/src/assets/images/career/finrend.webp)",
+      "Bash(cp /Users/mertcankose/Downloads/clicker-games.jpg /Users/mertcankose/Desktop/mertcan/Projects/Personal/mertcankose.com/src/assets/images/career/clicker-games.jpg)",
+      "Bash(npx tsc *)",
+      "Bash(npx --yes -p typescript tsc --noEmit --allowJs --jsx preserve --moduleResolution node --target es2020 --lib es2020,dom,dom.iterable --module esnext --esModuleInterop --skipLibCheck --resolveJsonModule --noEmit src/main.jsx)",
+      "Bash(pnpm build *)"
     ]
   }
 }

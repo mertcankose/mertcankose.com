@@ -1,8 +1,8 @@
 import AnimatedText from "../AnimatedText";
 import CustomButton from "../CustomButton";
 import SocialBar from "../SocialBar";
+import CurrentlyCard from "../CurrentlyCard";
 import styles from "./style.module.css";
-import { ReactComponent as ArrowDown } from "../../assets/icons/arrow-down.svg";
 import { successMessage } from "../../helpers/toast";
 import { analytics } from "../../firebase";
 import { logEvent } from "firebase/analytics";
@@ -24,29 +24,33 @@ const Main = ({ className }) => {
 
   return (
     <section className={[styles.main, className].join(" ")}>
-      <AnimatedText text="Hi, I’m Mertcan." />
-      <AnimatedText text="I craft digital products and experiences." className="mt-2" />
+      <div className={styles.layout}>
+        <div className={styles.left}>
+          <CurrentlyCard />
+        </div>
 
-      <p className={styles.description}>
-        I transform complex ideas into user-friendly solutions across web, mobile, and blockchain, emphasizing clean
-        code and seamless experiences.
-      </p>
-      <SocialBar />
+        <div className={styles.right}>
+          <AnimatedText text="Hi, I’m Mertcan." className="md:text-left leading-[1.1]" />
+          <AnimatedText text="I craft digital products and experiences." className="mt-1 md:text-left leading-[1.1]" />
 
-      <div className="flex items-center gap-4 mt-8">
-        <CustomButton onClick={() => copyEmail()} text="Copy Email" className="w-32" />
-        <CustomButton
-          onClick={handleCVClick}
-          type="external"
-          href="/MertcanKose_Resume.pdf"
-          text="View CV"
-          className="w-32"
-        />
+          <p className={styles.description}>
+            I transform complex ideas into user-friendly solutions across web and mobile, emphasizing clean code and
+            seamless experiences.
+          </p>
+          <SocialBar />
+
+          <div className="flex items-center gap-4 mt-6">
+            <CustomButton onClick={() => copyEmail()} text="Copy Email" className="w-32" />
+            <CustomButton
+              onClick={handleCVClick}
+              type="external"
+              href="/MertcanKose_Resume.pdf"
+              text="View CV"
+              className="w-32"
+            />
+          </div>
+        </div>
       </div>
-
-      <a href="#works" className="mt-10" aria-label={`Scroll to career section`} title={`Scroll to career section`}>
-        <ArrowDown width="30" height="30" />
-      </a>
     </section>
   );
 };

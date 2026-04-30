@@ -1,7 +1,6 @@
 .mainSection {
-  @apply md:h-main
-    mt-8 md:mt-0
-    mb-16 md:mb-0;
+  @apply mt-4 md:mt-[58px]
+    mb-[58px] md:mb-[74px];
 }
 
 .skillsSection {

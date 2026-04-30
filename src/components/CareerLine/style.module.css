@@ -1,56 +1,73 @@
 .container {
   @apply flex flex-col
-    items-center
     px-8 xl:px-0
     w-full
     mx-auto
     scroll-mt-4;
 }
 
+.headingRow {
+  @apply grid items-center mb-4;
+  grid-template-columns: 1fr auto 1fr;
+}
+
 .heading {
-  @apply text-4xl font-bold
-    text-center
-    mb-16;
+  @apply text-4xl font-bold text-center;
+  grid-column: 2;
 }
 
-.timeline {
-  @apply flex flex-col w-full gap-20 relative max-w-[1400px] mx-auto;
+.controls {
+  @apply flex items-center gap-2 justify-self-end;
+  grid-column: 3;
 }
 
-.timelineRow {
-  @apply flex flex-col xl:flex-row w-full gap-16 relative items-center xl:items-stretch xl:justify-between;
+.navButton {
+  @apply w-10 h-10
+    flex items-center justify-center
+    rounded-full
+    border border-gray-200
+    bg-white text-gray-700
+    transition-all duration-200
+    hover:bg-gray-900 hover:text-white hover:border-gray-900
+    disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-white disabled:hover:text-gray-700 disabled:hover:border-gray-200;
 }
 
-/* Son satır için özel stil */
-.timelineRow:last-child {
-  @apply xl:justify-start xl:pl-0;
+.iconFlip {
+  transform: rotate(180deg);
 }
 
-.timelineContent {
-  @apply relative bg-white p-8 rounded-xl shadow-lg border-2 border-gray-100
-    flex-1 basis-0
+.sliderWrapper {
+  @apply relative;
+}
+
+.slider {
+  @apply flex gap-6
+    w-full
+    overflow-x-auto
+    snap-x snap-mandatory
+    pt-16 pb-6
+    -mx-8 px-8 xl:mx-0 xl:px-1;
+  scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  @apply relative bg-white pt-6 px-6 pb-4 rounded-xl shadow-sm border-2 border-gray-100
     flex flex-col
     transition-all duration-300
-    hover:shadow-2xl hover:scale-105 hover:border-blue-200
-    w-full xl:w-auto;
-  height: auto;
-  min-height: 450px;
-  max-width: 500px;
-  min-width: unset;
+    hover:shadow-md hover:border-blue-200
+    snap-start
+    flex-shrink-0;
+  width: 310px;
+  height: 290px;
 }
 
-@media (min-width: 1280px) {
-  .timelineContent {
-    height: 450px;
-    max-width: 380px;
-    min-width: 380px;
-  }
-}
-
-/* Hexagon shape for company logos */
 .logoWrapper {
-  @apply absolute -top-10 left-1/2 -translate-x-1/2
-    w-20 h-20
+  @apply absolute -top-14 left-1/2 -translate-x-1/2
+    w-28 h-28
     bg-white
     shadow-lg
     flex items-center justify-center
@@ -58,57 +75,48 @@
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
-.timelineImage {
-  @apply w-16 h-16 p-2;
+.cardImage {
+  @apply w-24 h-24 p-2;
 }
 
-.timelineTitle {
-  @apply flex items-start mt-10 mb-1 text-lg font-bold text-gray-900 justify-start text-left;
+.cardImageDark {
+  @apply bg-gray-900 rounded-full p-3;
+  width: 80px;
+  height: 80px;
 }
 
-.timelineDate {
-  @apply block mb-2 text-sm font-medium text-blue-600 text-left;
+.cardTitle {
+  @apply flex items-start mt-9 mb-1 text-base font-bold text-gray-900 justify-start text-left;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.timelineRole {
-  @apply text-blue-800 font-semibold text-base mb-3 text-left;
+.cardDate {
+  @apply block mb-1 text-xs font-medium text-blue-600 text-left;
 }
 
-.timelineDescription {
-  @apply text-base font-normal text-gray-600 flex-grow text-left;
-  min-height: 200px;
+.cardRole {
+  @apply text-blue-800 font-semibold text-sm mb-2 text-left;
 }
 
-/* Connection lines - Bunlara dokunmuyoruz */
-.connectionLine {
-  @apply hidden xl:block absolute h-0.5 bg-gradient-to-r from-blue-200 to-blue-400
-    right-[-8rem] top-1/2 -translate-y-1/2 w-[8rem];
+.cardDescription {
+  @apply text-sm font-normal text-gray-600 flex-grow text-left;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.leftConnection {
-  @apply right-auto left-[-8rem];
-}
-
-.verticalConnection {
-  @apply hidden xl:block absolute w-0.5 bg-gradient-to-b from-blue-200 to-blue-400
-    left-1/2 -translate-x-1/2 top-[100%] h-[4rem];
-}
-
-.verticalConnectionUp {
-  @apply hidden xl:block absolute w-0.5 bg-gradient-to-t from-blue-200 to-blue-400
-    left-1/2 -translate-x-1/2 bottom-[100%] h-[4rem];
-}
-
-/* Latest badge */
 .latestBadge {
-  @apply absolute -top-3 -right-3 
+  @apply absolute -top-3 -right-3
     bg-gradient-to-r from-blue-500 to-blue-600
     text-white text-sm font-bold
     px-3 py-1.5 rounded-lg
     shadow-md;
 }
 
-/* Link styles */
 .link {
   @apply inline-flex items-center px-4 py-2 mt-4
     text-sm font-medium text-white

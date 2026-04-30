@@ -20,9 +20,9 @@ const Analytics = () => {
 
 const RootLayout = () => {
   return (
-    <main className="max-w-7xl mx-auto mb-8 flex flex-col">
+    <main className="max-w-[1240px] mx-auto mb-8 flex flex-col">
       <Analytics />
-      <Header className="h-24" />
+      <Header className="h-16" />
       <PhotoProvider>
         <Outlet />
       </PhotoProvider>

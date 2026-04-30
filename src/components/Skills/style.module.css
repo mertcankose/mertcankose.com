@@ -1,5 +1,5 @@
 .skills {
-  @apply w-full px-4 2xl:px-2;
+  @apply w-full px-8 xl:px-0;
 }
 
 .skillsArea {
@@ -7,7 +7,7 @@
 }
 
 .skillsTitle {
-  @apply text-lg font-medium mb-2;
+  @apply text-3xl font-semibold text-center;
 }
 
 .skillsTags {

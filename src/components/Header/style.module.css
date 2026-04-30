@@ -4,6 +4,7 @@
     justify-between
     items-center md:items-end
     px-8 xl:px-0 relative
+    w-full
 }
 
 .heading {
@@ -61,7 +62,7 @@
     rounded-lg
     py-2
     fixed
-    top-20 md:top-28
+    top-16 md:top-20
     right-8 xl:right-0
     transition-all
 }

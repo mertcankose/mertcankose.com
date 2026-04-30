@@ -18,9 +18,9 @@ const Skills = ({ className }) => {
   };
 
   return (
-    <section className={[styles.skills, className].join(" ")}>
+    <section id="skills" className={[styles.skills, className].join(" ")}>
+      <h2 className={styles.skillsTitle}>Skills</h2>
       <div className={styles.skillsArea}>
-        <h3 className={styles.skillsTitle}>Skills</h3>
         <div className={styles.skillsTags}>
           {skills.map((skill) => (
             <Tag tag={skill.text} key={skill.id} active={skill.active} />

@@ -7,6 +7,6 @@
 }
 
 .heading {
-    font-size: clamp(1.875rem,8vw,3.75rem);
+    font-size: clamp(1.5rem,6vw,3rem);
 }
 
