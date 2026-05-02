@@ -7,7 +7,26 @@
       "Bash(cp /Users/mertcankose/Downloads/clicker-games.jpg /Users/mertcankose/Desktop/mertcan/Projects/Personal/mertcankose.com/src/assets/images/career/clicker-games.jpg)",
       "Bash(npx tsc *)",
       "Bash(npx --yes -p typescript tsc --noEmit --allowJs --jsx preserve --moduleResolution node --target es2020 --lib es2020,dom,dom.iterable --module esnext --esModuleInterop --skipLibCheck --resolveJsonModule --noEmit src/main.jsx)",
-      "Bash(pnpm build *)"
+      "Bash(pnpm build *)",
+      "Bash(npm run *)",
+      "Read(//tmp/**)",
+      "Bash(curl -s http://localhost:5175/career -o /tmp/career.html)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(npx vite *)",
+      "Bash(lsof -ti:5173,5174)",
+      "Bash(xargs kill *)",
+      "Bash(lsof -i:5173,5174)",
+      "WebFetch(domain:ramazanipek.com)",
+      "Read(//private/tmp/**)",
+      "Bash(curl -sI \"https://ramazanipek.com/assets/geno-ai.png\")",
+      "Bash(curl -sI \"https://ramazanipek.com/assets/sac-degistirme.png\")",
+      "Bash(curl -sI \"https://ramazanipek.com/assets/flow-ai.png\")",
+      "Bash(curl -sI \"https://ramazanipek.com/assets/storify.png\")",
+      "Bash(curl -s \"https://ramazanipek.com/\")",
+      "Bash(curl -s \"https://ramazanipek.com/content.js\")",
+      "Bash(mkdir -p geno hairy)",
+      "Bash(curl -s -o geno/geno.png \"https://ramazanipek.com/assets/geno-ai.png\")",
+      "Bash(curl -s -o hairy/hairy.png \"https://ramazanipek.com/assets/sac-degistirme.png\")"
     ]
   }
 }

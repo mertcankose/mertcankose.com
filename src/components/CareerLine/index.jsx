@@ -5,15 +5,12 @@ import jotformlogo from "../../assets/images/career/jotform.webp";
 import openmoneylogo from "../../assets/images/career/openmoney.webp";
 import gaislogo from "../../assets/images/career/gais.webp";
 import vimlogo from "../../assets/images/career/vim.webp";
-import supsisLogo from "../../assets/images/career/supsis.avif";
 import finrendLogo from "../../assets/images/career/finrend.webp";
 import clickerGamesLogo from "../../assets/images/career/clicker-games.jpg";
 import fikaLogo from "../../assets/images/career/fika.png";
 import { ReactComponent as ArrowRight } from "../../assets/icons/arrow-right.svg";
 import styles from "./style.module.css";
 import valenturaLogo from "../../assets/images/career/valentura-logo.webp";
-
-const CARD_STEP = 334; // 310px card + 24px gap
 
 const CareerLine = ({ className }) => {
   const sliderRef = useRef(null);
@@ -39,25 +36,15 @@ const CareerLine = ({ className }) => {
   }, []);
 
   const scrollBy = (dir) => {
-    sliderRef.current?.scrollBy({ left: dir * CARD_STEP, behavior: "smooth" });
+    const el = sliderRef.current;
+    if (!el) return;
+    const firstCard = el.querySelector(`.${styles.card}`);
+    const cardWidth = firstCard?.offsetWidth ?? 310;
+    const gap = parseFloat(getComputedStyle(el).columnGap) || 24;
+    el.scrollBy({ left: dir * (cardWidth + gap), behavior: "smooth" });
   };
 
   const careerItems = [
-    {
-      logo: supsisLogo,
-      title: "Supsis AI",
-      date: "2026 - Present",
-      role: "Full Stack Developer",
-      description: (
-        <>
-          I work as a full stack developer building and maintaining the{" "}
-          <span className="font-bold text-green-700">panel</span>,{" "}
-          <span className="font-bold text-green-700">landing page</span> and{" "}
-          <span className="font-bold text-green-700">CRM</span> — handling everything from UI to backend changes.
-        </>
-      ),
-      isLatest: true,
-    },
     {
       logo: finrendLogo,
       title: "Finrend",
